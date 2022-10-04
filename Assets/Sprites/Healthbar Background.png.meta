@@ -1,0 +1,4006 @@
+fileFormatVersion: 2
+guid: ab5d222076ff7524d9b9375ca7bda241
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3599961914328184794
+    second: Healthbar Background_0
+  - first:
+      213: -7974198017727100528
+    second: Healthbar Background_1
+  - first:
+      213: -6157669621895179001
+    second: Healthbar Background_2
+  - first:
+      213: 6285352559479856450
+    second: Healthbar Background_3
+  - first:
+      213: 690562429203826914
+    second: Healthbar Background_4
+  - first:
+      213: 8039875052249650787
+    second: Healthbar Background_5
+  - first:
+      213: -7972041584233663050
+    second: Healthbar Background_6
+  - first:
+      213: -8180781617369624716
+    second: Healthbar Background_7
+  - first:
+      213: 8067306845032709573
+    second: Healthbar Background_8
+  - first:
+      213: 7375470655422181892
+    second: Healthbar Background_9
+  - first:
+      213: -222497502866649018
+    second: Healthbar Background_10
+  - first:
+      213: 3026402071830857367
+    second: Healthbar Background_11
+  - first:
+      213: 6442918216682832859
+    second: Healthbar Background_12
+  - first:
+      213: -7089065628780735363
+    second: Healthbar Background_13
+  - first:
+      213: -5775520187337972582
+    second: Healthbar Background_14
+  - first:
+      213: -8372102311300267657
+    second: Healthbar Background_15
+  - first:
+      213: 1159608970816733293
+    second: Healthbar Background_16
+  - first:
+      213: -1898804615379408550
+    second: Healthbar Background_17
+  - first:
+      213: -301739953351290629
+    second: Healthbar Background_18
+  - first:
+      213: -7314310691063889213
+    second: Healthbar Background_19
+  - first:
+      213: -1699702465879118862
+    second: Healthbar Background_20
+  - first:
+      213: 1358943070886251626
+    second: Healthbar Background_21
+  - first:
+      213: -5155996366466638766
+    second: Healthbar Background_22
+  - first:
+      213: -1941311160574697260
+    second: Healthbar Background_23
+  - first:
+      213: -5403286984864509770
+    second: Healthbar Background_24
+  - first:
+      213: -3573106709819758197
+    second: Healthbar Background_25
+  - first:
+      213: -8683823771587779822
+    second: Healthbar Background_26
+  - first:
+      213: 2023989120255484492
+    second: Healthbar Background_27
+  - first:
+      213: 1925860927136881086
+    second: Healthbar Background_28
+  - first:
+      213: 2073163759403536957
+    second: Healthbar Background_29
+  - first:
+      213: -8858519182342653962
+    second: Healthbar Background_30
+  - first:
+      213: 7981221973831867553
+    second: Healthbar Background_31
+  - first:
+      213: -163783803477029421
+    second: Healthbar Background_32
+  - first:
+      213: 1933679648994104961
+    second: Healthbar Background_33
+  - first:
+      213: 1913665708181961469
+    second: Healthbar Background_34
+  - first:
+      213: 3342322314626555257
+    second: Healthbar Background_35
+  - first:
+      213: 1161759740177096864
+    second: Healthbar Background_36
+  - first:
+      213: -281832621719744956
+    second: Healthbar Background_37
+  - first:
+      213: 2866604273959051955
+    second: Healthbar Background_38
+  - first:
+      213: -4681048530801714242
+    second: Healthbar Background_39
+  - first:
+      213: -5376486201747709810
+    second: Healthbar Background_40
+  - first:
+      213: -329652581097220681
+    second: Healthbar Background_41
+  - first:
+      213: -3533266278273209009
+    second: Healthbar Background_42
+  - first:
+      213: -937372234234000520
+    second: Healthbar Background_43
+  - first:
+      213: -5480088146912025255
+    second: Healthbar Background_44
+  - first:
+      213: 1576798398176594903
+    second: Healthbar Background_45
+  - first:
+      213: 6000399710880835721
+    second: Healthbar Background_46
+  - first:
+      213: 7367761690851465184
+    second: Healthbar Background_47
+  - first:
+      213: -3197503014559876260
+    second: Healthbar Background_48
+  - first:
+      213: 5037469402035324797
+    second: Healthbar Background_49
+  - first:
+      213: 9133865866040387996
+    second: Healthbar Background_50
+  - first:
+      213: -105395072470829014
+    second: Healthbar Background_51
+  - first:
+      213: -5310847386743679880
+    second: Healthbar Background_52
+  - first:
+      213: -7453043207505957789
+    second: Healthbar Background_53
+  - first:
+      213: 1439579436911530593
+    second: Healthbar Background_54
+  - first:
+      213: 6113332682680769589
+    second: Healthbar Background_55
+  - first:
+      213: 7006157063145316270
+    second: Healthbar Background_56
+  - first:
+      213: -283102930149587654
+    second: Healthbar Background_57
+  - first:
+      213: -189986037290766185
+    second: Healthbar Background_58
+  - first:
+      213: 148007874773039444
+    second: Healthbar Background_59
+  - first:
+      213: -7167529581268025994
+    second: Healthbar Background_60
+  - first:
+      213: -8576872246884942847
+    second: Healthbar Background_61
+  - first:
+      213: 2350221772724626617
+    second: Healthbar Background_62
+  - first:
+      213: 9044101544261210298
+    second: Healthbar Background_63
+  - first:
+      213: -4406136777021048890
+    second: Healthbar Background_64
+  - first:
+      213: 4420952136219355090
+    second: Healthbar Background_65
+  - first:
+      213: -1156819613963194274
+    second: Healthbar Background_66
+  - first:
+      213: 7973670438235214919
+    second: Healthbar Background_67
+  - first:
+      213: 4676491147727322025
+    second: Healthbar Background_68
+  - first:
+      213: 1329034892942235783
+    second: Healthbar Background_69
+  - first:
+      213: -2414325787542825710
+    second: Healthbar Background_70
+  - first:
+      213: 6254072792207055690
+    second: Healthbar Background_71
+  - first:
+      213: -4635815665638210118
+    second: Healthbar Background_72
+  - first:
+      213: 6081668203557728438
+    second: Healthbar Background_73
+  - first:
+      213: -7807116974201249269
+    second: Healthbar Background_74
+  - first:
+      213: 2181684203818382439
+    second: Healthbar Background_75
+  - first:
+      213: 2012153734659893869
+    second: Healthbar Background_76
+  - first:
+      213: -4618456625872396227
+    second: Healthbar Background_77
+  - first:
+      213: 7539508291235433697
+    second: Healthbar Background_78
+  - first:
+      213: -1908348305925711497
+    second: Healthbar Background_79
+  - first:
+      213: -1984059686848667737
+    second: Healthbar Background_80
+  - first:
+      213: 3727062799543815278
+    second: Healthbar Background_81
+  - first:
+      213: 8437120784207654659
+    second: Healthbar Background_82
+  - first:
+      213: 6095683301602493645
+    second: Healthbar Background_83
+  - first:
+      213: -5226956993157623520
+    second: Healthbar Background_84
+  - first:
+      213: -811086385225576202
+    second: Healthbar Background_85
+  - first:
+      213: 5516990387952247899
+    second: Healthbar Background_86
+  - first:
+      213: -1725383489374241248
+    second: Healthbar Background_87
+  - first:
+      213: -7405938111527721923
+    second: Healthbar Background_88
+  - first:
+      213: -5494020444946987487
+    second: Healthbar Background_89
+  - first:
+      213: -1954085530619611753
+    second: Healthbar Background_90
+  - first:
+      213: -8693717252050713637
+    second: Healthbar Background_91
+  - first:
+      213: 3876557099124864680
+    second: Healthbar Background_92
+  - first:
+      213: -1960260462352605232
+    second: Healthbar Background_93
+  - first:
+      213: 476857737361683718
+    second: Healthbar Background_94
+  - first:
+      213: -5528358465983957790
+    second: Healthbar Background_95
+  - first:
+      213: -7200575335755899147
+    second: Healthbar Background_96
+  - first:
+      213: 2094953175359553118
+    second: Healthbar Background_97
+  - first:
+      213: -8271142956678939328
+    second: Healthbar Background_98
+  - first:
+      213: -7889740071630378232
+    second: Healthbar Background_99
+  - first:
+      213: 1805451426487838688
+    second: Healthbar Background_100
+  - first:
+      213: 7943724347969580796
+    second: Healthbar Background_101
+  - first:
+      213: -7531672360911064789
+    second: Healthbar Background_102
+  - first:
+      213: 947789237466906877
+    second: Healthbar Background_103
+  - first:
+      213: 6139692161071691036
+    second: Healthbar Background_104
+  - first:
+      213: -6774514880785761057
+    second: Healthbar Background_105
+  - first:
+      213: 7890985268068416705
+    second: Healthbar Background_106
+  - first:
+      213: 2250300837232922052
+    second: Healthbar Background_107
+  - first:
+      213: 7625718689534944615
+    second: Healthbar Background_108
+  - first:
+      213: -754977742590457372
+    second: Healthbar Background_109
+  - first:
+      213: -8916965900624684842
+    second: Healthbar Background_110
+  - first:
+      213: 4233596674124515457
+    second: Healthbar Background_111
+  - first:
+      213: -6218733224874724288
+    second: Healthbar Background_112
+  - first:
+      213: 8261758590036193099
+    second: Healthbar Background_113
+  - first:
+      213: -6481557526733855285
+    second: Healthbar Background_114
+  - first:
+      213: -6078474821989758593
+    second: Healthbar Background_115
+  - first:
+      213: 800713351764208097
+    second: Healthbar Background_116
+  - first:
+      213: 3002557396831754835
+    second: Healthbar Background_117
+  - first:
+      213: -1904846539314585688
+    second: Healthbar Background_118
+  - first:
+      213: -3764998901728143000
+    second: Healthbar Background_119
+  - first:
+      213: 6139143975042397205
+    second: Healthbar Background_120
+  - first:
+      213: -1365727499146463588
+    second: Healthbar Background_121
+  - first:
+      213: 1742342370974157007
+    second: Healthbar Background_122
+  - first:
+      213: -1058454696164479208
+    second: Healthbar Background_123
+  - first:
+      213: -6531483099044313567
+    second: Healthbar Background_124
+  - first:
+      213: 3479940527993671227
+    second: Healthbar Background_125
+  - first:
+      213: 8834259383928220112
+    second: Healthbar Background_126
+  - first:
+      213: 3861575221293698386
+    second: Healthbar Background_127
+  - first:
+      213: 3826715189250052840
+    second: Healthbar Background_128
+  - first:
+      213: 965253886674762219
+    second: Healthbar Background_129
+  - first:
+      213: -4012878179416684693
+    second: Healthbar Background_130
+  - first:
+      213: -3702560375993082458
+    second: Healthbar Background_131
+  - first:
+      213: -4238736802007815692
+    second: Healthbar Background_132
+  - first:
+      213: 1910227884909518968
+    second: Healthbar Background_133
+  - first:
+      213: 4558180277000379224
+    second: Healthbar Background_134
+  - first:
+      213: 2900612312140940532
+    second: Healthbar Background_135
+  - first:
+      213: 721553351752447764
+    second: Healthbar Background_136
+  - first:
+      213: -8128545772655088126
+    second: Healthbar Background_137
+  - first:
+      213: 4558849556718427958
+    second: Healthbar Background_138
+  - first:
+      213: 2514192569747566165
+    second: Healthbar Background_139
+  - first:
+      213: -8686618316253324722
+    second: Healthbar Background_140
+  - first:
+      213: 756403777734813691
+    second: Healthbar Background_141
+  - first:
+      213: 2968348271591937602
+    second: Healthbar Background_142
+  - first:
+      213: -5972401302882129289
+    second: Healthbar Background_143
+  - first:
+      213: 6770145328676607005
+    second: Healthbar Background_144
+  - first:
+      213: -2937054769764211802
+    second: Healthbar Background_145
+  - first:
+      213: 2809761438109909384
+    second: Healthbar Background_146
+  - first:
+      213: 1152596732642995822
+    second: Healthbar Background_147
+  - first:
+      213: -2904608474827872769
+    second: Healthbar Background_148
+  - first:
+      213: 369511413560446604
+    second: Healthbar Background_149
+  - first:
+      213: -5301485245090039639
+    second: Healthbar Background_150
+  - first:
+      213: 1212052810825425867
+    second: Healthbar Background_151
+  - first:
+      213: -5294370945136631683
+    second: Healthbar Background_152
+  - first:
+      213: 7818703302592328513
+    second: Healthbar Background_153
+  - first:
+      213: 8826016353852417221
+    second: Healthbar Background_154
+  - first:
+      213: -1834023852492831232
+    second: Healthbar Background_155
+  - first:
+      213: 1700179340319349223
+    second: Healthbar Background_156
+  - first:
+      213: 434482015284855060
+    second: Healthbar Background_157
+  - first:
+      213: 8073466235235306727
+    second: Healthbar Background_158
+  - first:
+      213: 5489409764311508388
+    second: Healthbar Background_159
+  - first:
+      213: -5920299592310899612
+    second: Healthbar Background_160
+  - first:
+      213: -1730624788368979203
+    second: Healthbar Background_161
+  - first:
+      213: 2706127679059553252
+    second: Healthbar Background_162
+  - first:
+      213: -8453269061282398488
+    second: Healthbar Background_163
+  - first:
+      213: -1886587681769282209
+    second: Healthbar Background_164
+  - first:
+      213: -5143316770293964783
+    second: Healthbar Background_165
+  - first:
+      213: 2192297623110304110
+    second: Healthbar Background_166
+  - first:
+      213: -4609504230465572344
+    second: Healthbar Background_167
+  - first:
+      213: 5606067985569524271
+    second: Healthbar Background_168
+  - first:
+      213: 5304003361510200073
+    second: Healthbar Background_169
+  - first:
+      213: 4329350208290239728
+    second: Healthbar Background_170
+  - first:
+      213: 8486111062400692925
+    second: Healthbar Background_171
+  - first:
+      213: -2563574159113066705
+    second: Healthbar Background_172
+  - first:
+      213: 6244406472902019206
+    second: Healthbar Background_173
+  - first:
+      213: 5848289422171967857
+    second: Healthbar Background_174
+  - first:
+      213: 9046562876989914941
+    second: Healthbar Background_175
+  - first:
+      213: 6330551709966497075
+    second: Healthbar Background_176
+  - first:
+      213: 534101195504867710
+    second: Healthbar Background_177
+  - first:
+      213: 5450533300191025842
+    second: Healthbar Background_178
+  - first:
+      213: 1206171725573417918
+    second: Healthbar Background_179
+  - first:
+      213: -53071594566982724
+    second: Healthbar Background_180
+  - first:
+      213: 3189630396465736849
+    second: Healthbar Background_181
+  - first:
+      213: 3559424941949805694
+    second: Healthbar Background_182
+  - first:
+      213: -2312762572107239820
+    second: Healthbar Background_183
+  - first:
+      213: 5746564222908692456
+    second: Healthbar Background_184
+  - first:
+      213: 7108760827762389014
+    second: Healthbar Background_185
+  - first:
+      213: 6476961146601778136
+    second: Healthbar Background_186
+  - first:
+      213: 7419502095631504996
+    second: Healthbar Background_187
+  - first:
+      213: -8640348020603651172
+    second: Healthbar Background_188
+  - first:
+      213: 4272225457498224689
+    second: Healthbar Background_189
+  - first:
+      213: 6388830999035984746
+    second: Healthbar Background_190
+  - first:
+      213: -547202883878073133
+    second: Healthbar Background_191
+  - first:
+      213: 518045745354065234
+    second: Healthbar Background_192
+  - first:
+      213: 2504360826858585771
+    second: Healthbar Background_193
+  - first:
+      213: -1281820951855330868
+    second: Healthbar Background_194
+  - first:
+      213: -5753529831429400451
+    second: Healthbar Background_195
+  - first:
+      213: -1311265753439567621
+    second: Healthbar Background_196
+  - first:
+      213: 8919534450775028174
+    second: Healthbar Background_197
+  - first:
+      213: 5336239729299688335
+    second: Healthbar Background_198
+  - first:
+      213: -6777645997766360160
+    second: Healthbar Background_199
+  - first:
+      213: -6421524861831262862
+    second: Healthbar Background_200
+  - first:
+      213: 8012424545852143082
+    second: Healthbar Background_201
+  - first:
+      213: 3117725010010041368
+    second: Healthbar Background_202
+  - first:
+      213: -5874036231643195945
+    second: Healthbar Background_203
+  - first:
+      213: 8598528860215060620
+    second: Healthbar Background_204
+  - first:
+      213: -5954544688431344189
+    second: Healthbar Background_205
+  - first:
+      213: 6504280232469147178
+    second: Healthbar Background_206
+  - first:
+      213: -4370865673709848183
+    second: Healthbar Background_207
+  - first:
+      213: 17467726030194063
+    second: Healthbar Background_208
+  - first:
+      213: 2155075594409079628
+    second: Healthbar Background_209
+  - first:
+      213: -4833858057009678943
+    second: Healthbar Background_210
+  - first:
+      213: 1240256671334120781
+    second: Healthbar Background_211
+  - first:
+      213: -8217397539274596289
+    second: Healthbar Background_212
+  - first:
+      213: 5098386040964125032
+    second: Healthbar Background_213
+  - first:
+      213: 1369103837775808122
+    second: Healthbar Background_214
+  - first:
+      213: -4713789234816772408
+    second: Healthbar Background_215
+  - first:
+      213: 5217610767368224119
+    second: Healthbar Background_216
+  - first:
+      213: 424902126965063943
+    second: Healthbar Background_217
+  - first:
+      213: 3052909173956911164
+    second: Healthbar Background_218
+  - first:
+      213: 250735909534092649
+    second: Healthbar Background_219
+  - first:
+      213: 2013028934851520
+    second: Healthbar Background_220
+  - first:
+      213: 6080718761582045967
+    second: Healthbar Background_221
+  - first:
+      213: 7096666456035726382
+    second: Healthbar Background_222
+  - first:
+      213: -5855779246206551046
+    second: Healthbar Background_223
+  - first:
+      213: -2443380449274460894
+    second: Healthbar Background_224
+  - first:
+      213: -5970350609162693294
+    second: Healthbar Background_225
+  - first:
+      213: 1128399004984286311
+    second: Healthbar Background_226
+  - first:
+      213: -6923766629747050694
+    second: Healthbar Background_227
+  - first:
+      213: 6387645254229673742
+    second: Healthbar Background_228
+  - first:
+      213: -146199064870049412
+    second: Healthbar Background_229
+  - first:
+      213: -8780345993661374159
+    second: Healthbar Background_230
+  - first:
+      213: -1023245011926071426
+    second: Healthbar Background_231
+  - first:
+      213: -1250583420109887808
+    second: Healthbar Background_232
+  - first:
+      213: 1621549451248847527
+    second: Healthbar Background_233
+  - first:
+      213: 8993027153163799924
+    second: Healthbar Background_234
+  - first:
+      213: -2570437477569903343
+    second: Healthbar Background_235
+  - first:
+      213: 3056229305418862468
+    second: Healthbar Background_236
+  - first:
+      213: -6796645051491342019
+    second: Healthbar Background_237
+  - first:
+      213: 6772151944335986750
+    second: Healthbar Background_238
+  - first:
+      213: -2055192451309916638
+    second: Healthbar Background_239
+  - first:
+      213: 559909352692187771
+    second: Healthbar Background_240
+  - first:
+      213: 5353490935526764076
+    second: Healthbar Background_241
+  - first:
+      213: 2400623336207166730
+    second: Healthbar Background_242
+  - first:
+      213: -1834023986854410082
+    second: Healthbar Background_243
+  - first:
+      213: -2414503523069086600
+    second: Healthbar Background_244
+  - first:
+      213: -6789106610853454458
+    second: Healthbar Background_245
+  - first:
+      213: 3904641116672449130
+    second: Healthbar Background_246
+  - first:
+      213: -7718639981326220991
+    second: Healthbar Background_247
+  - first:
+      213: -777038420423979466
+    second: Healthbar Background_248
+  - first:
+      213: -1586693244916578654
+    second: Healthbar Background_249
+  - first:
+      213: 6999310079108237907
+    second: Healthbar Background_250
+  - first:
+      213: 6476074021668078900
+    second: Healthbar Background_251
+  - first:
+      213: 3586694039857721364
+    second: Healthbar Background_252
+  - first:
+      213: -2198333553134514546
+    second: Healthbar Background_253
+  - first:
+      213: 1010856874255356453
+    second: Healthbar Background_254
+  - first:
+      213: 2606383595926869263
+    second: Healthbar Background_255
+  - first:
+      213: -6378169916373111891
+    second: Healthbar Background_256
+  - first:
+      213: 1476307515396288565
+    second: Healthbar Background_257
+  - first:
+      213: -3013689723330578169
+    second: Healthbar Background_258
+  - first:
+      213: -7433299325560463810
+    second: Healthbar Background_259
+  - first:
+      213: -844224606031409526
+    second: Healthbar Background_260
+  - first:
+      213: -1363387563649103187
+    second: Healthbar Background_261
+  - first:
+      213: -4351776905893598509
+    second: Healthbar Background_262
+  - first:
+      213: -725525965192052545
+    second: Healthbar Background_263
+  - first:
+      213: -3327916699386534984
+    second: Healthbar Background_264
+  - first:
+      213: -3764948717091991899
+    second: Healthbar Background_265
+  - first:
+      213: -8760582892892571388
+    second: Healthbar Background_266
+  - first:
+      213: 6483276255354331820
+    second: Healthbar Background_267
+  - first:
+      213: 497266246039234696
+    second: Healthbar Background_268
+  - first:
+      213: -8144968335576496638
+    second: Healthbar Background_269
+  - first:
+      213: 3134587242822094274
+    second: Healthbar Background_270
+  - first:
+      213: 313856470813107394
+    second: Healthbar Background_271
+  - first:
+      213: -4656676435823170567
+    second: Healthbar Background_272
+  - first:
+      213: -7466720755356663922
+    second: Healthbar Background_273
+  - first:
+      213: 8668065354754852187
+    second: Healthbar Background_274
+  - first:
+      213: -8481393201206205415
+    second: Healthbar Background_275
+  - first:
+      213: -3892379604414416316
+    second: Healthbar Background_276
+  - first:
+      213: -5072640078971956626
+    second: Healthbar Background_277
+  - first:
+      213: 3890111116342750810
+    second: Healthbar Background_278
+  - first:
+      213: -961767845715579509
+    second: Healthbar Background_279
+  - first:
+      213: 1638247929773930425
+    second: Healthbar Background_280
+  - first:
+      213: 5022696594707967005
+    second: Healthbar Background_281
+  - first:
+      213: 2549681552457850999
+    second: Healthbar Background_282
+  - first:
+      213: -8359406245951978115
+    second: Healthbar Background_283
+  - first:
+      213: 3488406088631233655
+    second: Healthbar Background_284
+  - first:
+      213: -1361856301463465691
+    second: Healthbar Background_285
+  - first:
+      213: -3782730017232216207
+    second: Healthbar Background_286
+  - first:
+      213: -4258272478937850229
+    second: Healthbar Background_287
+  - first:
+      213: -4985277159113131674
+    second: Healthbar Background_288
+  - first:
+      213: 7864167354326992283
+    second: Healthbar Background_289
+  - first:
+      213: 3715928444147604777
+    second: Healthbar Background_290
+  - first:
+      213: -7888244393178130935
+    second: Healthbar Background_291
+  - first:
+      213: 8620661259020279553
+    second: Healthbar Background_292
+  - first:
+      213: 3145561788934517088
+    second: Healthbar Background_293
+  - first:
+      213: 243746283502340308
+    second: Healthbar Background_294
+  - first:
+      213: 7379395523922453592
+    second: Healthbar Background_295
+  - first:
+      213: -7024499390873180939
+    second: Healthbar Background_296
+  - first:
+      213: 5787988493278433077
+    second: Healthbar Background_297
+  - first:
+      213: -8931800499486103186
+    second: Healthbar Background_298
+  - first:
+      213: 3553684592723445802
+    second: Healthbar Background_299
+  - first:
+      213: -8060676601038803947
+    second: Healthbar Background_300
+  - first:
+      213: 5790318920206440669
+    second: Healthbar Background_301
+  - first:
+      213: 4420038221115542650
+    second: Healthbar Background_302
+  - first:
+      213: -8513462537196390543
+    second: Healthbar Background_303
+  - first:
+      213: -4001312932594459486
+    second: Healthbar Background_304
+  - first:
+      213: -6622562856458828951
+    second: Healthbar Background_305
+  - first:
+      213: -8438713673401624409
+    second: Healthbar Background_306
+  - first:
+      213: 2454204363605209455
+    second: Healthbar Background_307
+  - first:
+      213: 6199325790613228624
+    second: Healthbar Background_308
+  - first:
+      213: 5025337273879190148
+    second: Healthbar Background_309
+  - first:
+      213: -6205758797989923121
+    second: Healthbar Background_310
+  - first:
+      213: -1662571741551423200
+    second: Healthbar Background_311
+  - first:
+      213: -7516285609121189996
+    second: Healthbar Background_312
+  - first:
+      213: 7812904207945788018
+    second: Healthbar Background_313
+  - first:
+      213: 6394500818712876864
+    second: Healthbar Background_314
+  - first:
+      213: -6552059917286350161
+    second: Healthbar Background_315
+  - first:
+      213: -1333594725413007224
+    second: Healthbar Background_316
+  - first:
+      213: -8538828063643550566
+    second: Healthbar Background_317
+  - first:
+      213: 3270126317673103975
+    second: Healthbar Background_318
+  - first:
+      213: -446159904616671074
+    second: Healthbar Background_319
+  - first:
+      213: -8671227792122149810
+    second: Healthbar Background_320
+  - first:
+      213: -4766873463396457058
+    second: Healthbar Background_321
+  - first:
+      213: 6086171688226637663
+    second: Healthbar Background_322
+  - first:
+      213: -1694782212869294887
+    second: Healthbar Background_323
+  - first:
+      213: -1377768333831904514
+    second: Healthbar Background_324
+  - first:
+      213: 5162336184365406632
+    second: Healthbar Background_325
+  - first:
+      213: -3269175501233331529
+    second: Healthbar Background_326
+  - first:
+      213: 5552352426730608123
+    second: Healthbar Background_327
+  - first:
+      213: -3888548886303052524
+    second: Healthbar Background_328
+  - first:
+      213: 6320920528773508846
+    second: Healthbar Background_329
+  - first:
+      213: 5389712972550583480
+    second: Healthbar Background_330
+  - first:
+      213: 5230820162180696185
+    second: Healthbar Background_331
+  - first:
+      213: 6504589698403750544
+    second: Healthbar Background_332
+  - first:
+      213: 7889709993254154035
+    second: Healthbar Background_333
+  - first:
+      213: -4784593417235136816
+    second: Healthbar Background_334
+  - first:
+      213: -1238894027161195433
+    second: Healthbar Background_335
+  - first:
+      213: 2265555811023654734
+    second: Healthbar Background_336
+  - first:
+      213: 2610378259586918772
+    second: Healthbar Background_337
+  - first:
+      213: 191795774022645031
+    second: Healthbar Background_338
+  - first:
+      213: 5043739718253504042
+    second: Healthbar Background_339
+  - first:
+      213: -4176893446209949878
+    second: Healthbar Background_340
+  - first:
+      213: 7068446927251874146
+    second: Healthbar Background_341
+  - first:
+      213: -5067589125243548323
+    second: Healthbar Background_342
+  - first:
+      213: -3855677464577320628
+    second: Healthbar Background_343
+  - first:
+      213: 4430087515913100892
+    second: Healthbar Background_344
+  - first:
+      213: 3427457395640591292
+    second: Healthbar Background_345
+  - first:
+      213: 4327084815896805637
+    second: Healthbar Background_346
+  - first:
+      213: -4192396971686858659
+    second: Healthbar Background_347
+  - first:
+      213: -5351280569774716150
+    second: Healthbar Background_348
+  - first:
+      213: -8962508601466244504
+    second: Healthbar Background_349
+  - first:
+      213: -6390139035027111762
+    second: Healthbar Background_350
+  - first:
+      213: -7810473536338736406
+    second: Healthbar Background_351
+  - first:
+      213: 2733609926387458266
+    second: Healthbar Background_352
+  - first:
+      213: 177769156740237598
+    second: Healthbar Background_353
+  - first:
+      213: -3706840486095909344
+    second: Healthbar Background_354
+  - first:
+      213: 8582033362055776650
+    second: Healthbar Background_355
+  - first:
+      213: -3497356544153499308
+    second: Healthbar Background_356
+  - first:
+      213: 1606220496415660189
+    second: Healthbar Background_357
+  - first:
+      213: 5368460958106608246
+    second: Healthbar Background_358
+  - first:
+      213: -3555675053399179961
+    second: Healthbar Background_359
+  - first:
+      213: 97710228088108400
+    second: Healthbar Background_360
+  - first:
+      213: -6660117520857189475
+    second: Healthbar Background_361
+  - first:
+      213: 5754575592114174859
+    second: Healthbar Background_362
+  - first:
+      213: -4597799141379290348
+    second: Healthbar Background_363
+  - first:
+      213: 22861135650020793
+    second: Healthbar Background_364
+  - first:
+      213: 1219970268860331602
+    second: Healthbar Background_365
+  - first:
+      213: -8672709499634453827
+    second: Healthbar Background_366
+  - first:
+      213: -7746052214899154285
+    second: Healthbar Background_367
+  - first:
+      213: -230532506742544876
+    second: Healthbar Background_368
+  - first:
+      213: -818661444937844451
+    second: Healthbar Background_369
+  - first:
+      213: 905066760620126920
+    second: Healthbar Background_370
+  - first:
+      213: 4772586878486079802
+    second: Healthbar Background_371
+  - first:
+      213: 8691500408901022263
+    second: Healthbar Background_372
+  - first:
+      213: -6436734584512084205
+    second: Healthbar Background_373
+  - first:
+      213: 4965627828911651399
+    second: Healthbar Background_374
+  - first:
+      213: -4503008781824022160
+    second: Healthbar Background_375
+  - first:
+      213: -1813974370872541121
+    second: Healthbar Background_376
+  - first:
+      213: 2690788879972484518
+    second: Healthbar Background_377
+  - first:
+      213: 3975630178167555317
+    second: Healthbar Background_378
+  - first:
+      213: -7448513264351488452
+    second: Healthbar Background_379
+  - first:
+      213: 1442376971566022250
+    second: Healthbar Background_380
+  - first:
+      213: -2841109995283863031
+    second: Healthbar Background_381
+  - first:
+      213: 8139189486799589086
+    second: Healthbar Background_382
+  - first:
+      213: 4211533711392441796
+    second: Healthbar Background_383
+  - first:
+      213: -3373807395694740132
+    second: Healthbar Background_384
+  - first:
+      213: 8324157453316907033
+    second: Healthbar Background_385
+  - first:
+      213: 1056180983776429107
+    second: Healthbar Background_386
+  - first:
+      213: 6936528040460887221
+    second: Healthbar Background_387
+  - first:
+      213: 5138644119144054050
+    second: Healthbar Background_388
+  - first:
+      213: -8618875655728045649
+    second: Healthbar Background_389
+  - first:
+      213: 5016011008906925302
+    second: Healthbar Background_390
+  - first:
+      213: -3258628085588858885
+    second: Healthbar Background_391
+  - first:
+      213: 7080675571953547268
+    second: Healthbar Background_392
+  - first:
+      213: 8806461735378591265
+    second: Healthbar Background_393
+  - first:
+      213: 6928990935792925721
+    second: Healthbar Background_394
+  - first:
+      213: -7717651954309357573
+    second: Healthbar Background_395
+  - first:
+      213: -6756421976781450695
+    second: Healthbar Background_396
+  - first:
+      213: 2584632942751971541
+    second: Healthbar Background_397
+  - first:
+      213: -7706898505363417648
+    second: Healthbar Background_398
+  - first:
+      213: -7369743290020030006
+    second: Healthbar Background_399
+  - first:
+      213: 7752398347807669002
+    second: Healthbar Background_400
+  - first:
+      213: -5230933890892671225
+    second: Healthbar Background_401
+  - first:
+      213: 297267187504768255
+    second: Healthbar Background_402
+  - first:
+      213: 9031552619599878128
+    second: Healthbar Background_403
+  - first:
+      213: -6392476836938144729
+    second: Healthbar Background_404
+  - first:
+      213: 7877480227361742014
+    second: Healthbar Background_405
+  - first:
+      213: 1765412166240045243
+    second: Healthbar Background_406
+  - first:
+      213: 7555081339027925752
+    second: Healthbar Background_407
+  - first:
+      213: -506692202648388711
+    second: Healthbar Background_408
+  - first:
+      213: -3114170282943971955
+    second: Healthbar Background_409
+  - first:
+      213: 7866400953197123267
+    second: Healthbar Background_410
+  - first:
+      213: -1942204649869851631
+    second: Healthbar Background_411
+  - first:
+      213: 3151446054285193955
+    second: Healthbar Background_412
+  - first:
+      213: 4862502530370707524
+    second: Healthbar Background_413
+  - first:
+      213: -6164098970466421396
+    second: Healthbar Background_414
+  - first:
+      213: -5692328349984632785
+    second: Healthbar Background_415
+  - first:
+      213: 6628493343920139151
+    second: Healthbar Background_416
+  - first:
+      213: -4029219870120081797
+    second: Healthbar Background_417
+  - first:
+      213: 7063015176653348377
+    second: Healthbar Background_418
+  - first:
+      213: 204850812037246104
+    second: Healthbar Background_419
+  - first:
+      213: -7555654452639321666
+    second: Healthbar Background_420
+  - first:
+      213: 2066645709858117431
+    second: Healthbar Background_421
+  - first:
+      213: 2698341080805641585
+    second: Healthbar Background_422
+  - first:
+      213: -6796876717721670961
+    second: Healthbar Background_423
+  - first:
+      213: -6290010078728315278
+    second: Healthbar Background_424
+  - first:
+      213: 2616100843483962437
+    second: Healthbar Background_425
+  - first:
+      213: 305682704364832401
+    second: Healthbar Background_426
+  - first:
+      213: 1405311594491839839
+    second: Healthbar Background_427
+  - first:
+      213: 3673203946815797369
+    second: Healthbar Background_428
+  - first:
+      213: 6686075492736564568
+    second: Healthbar Background_429
+  - first:
+      213: 8296760758448509494
+    second: Healthbar Background_430
+  - first:
+      213: -6393130465778518585
+    second: Healthbar Background_431
+  - first:
+      213: 7650750668856799563
+    second: Healthbar Background_432
+  - first:
+      213: -7930782654245462383
+    second: Healthbar Background_433
+  - first:
+      213: 2753381248059098851
+    second: Healthbar Background_434
+  - first:
+      213: 2062347787954363847
+    second: Healthbar Background_435
+  - first:
+      213: 6720182550545562097
+    second: Healthbar Background_436
+  - first:
+      213: -6131506201283201736
+    second: Healthbar Background_437
+  - first:
+      213: 6594436198632416383
+    second: Healthbar Background_438
+  - first:
+      213: 473699421831852461
+    second: Healthbar Background_439
+  - first:
+      213: 7351475919173886148
+    second: Healthbar Background_440
+  - first:
+      213: -3761195434966932354
+    second: Healthbar Background_441
+  - first:
+      213: -7638617586558466471
+    second: Healthbar Background_442
+  - first:
+      213: -324231202319123050
+    second: Healthbar Background_443
+  - first:
+      213: 76573359523716710
+    second: Healthbar Background_444
+  - first:
+      213: 5158338582337579785
+    second: Healthbar Background_445
+  - first:
+      213: 3161912647116977649
+    second: Healthbar Background_446
+  - first:
+      213: -2217350671972586330
+    second: Healthbar Background_447
+  - first:
+      213: -1459347614717445733
+    second: Healthbar Background_448
+  - first:
+      213: -4253723597084831930
+    second: Healthbar Background_449
+  - first:
+      213: -3893366796881429354
+    second: Healthbar Background_450
+  - first:
+      213: -6567199925869897098
+    second: Healthbar Background_451
+  - first:
+      213: 146695229889892253
+    second: Healthbar Background_452
+  - first:
+      213: 4844646957002359997
+    second: Healthbar Background_453
+  - first:
+      213: -1918028188058690771
+    second: Healthbar Background_454
+  - first:
+      213: -744877333526489682
+    second: Healthbar Background_455
+  - first:
+      213: 6371311474887517380
+    second: Healthbar Background_456
+  - first:
+      213: 6126262866064607053
+    second: Healthbar Background_457
+  - first:
+      213: 6102529742829061070
+    second: Healthbar Background_458
+  - first:
+      213: 7830795749172247075
+    second: Healthbar Background_459
+  - first:
+      213: -8237018286955139951
+    second: Healthbar Background_460
+  - first:
+      213: 14397785222272634
+    second: Healthbar Background_461
+  - first:
+      213: 5805305420142922002
+    second: Healthbar Background_462
+  - first:
+      213: -7695475811616368430
+    second: Healthbar Background_463
+  - first:
+      213: 2029301000865887866
+    second: Healthbar Background_464
+  - first:
+      213: 3699088754937544578
+    second: Healthbar Background_465
+  - first:
+      213: -8429681912735953868
+    second: Healthbar Background_466
+  - first:
+      213: 8612266125740999806
+    second: Healthbar Background_467
+  - first:
+      213: -3061786479858968754
+    second: Healthbar Background_468
+  - first:
+      213: 5088626841004420832
+    second: Healthbar Background_469
+  - first:
+      213: -5117668440068912778
+    second: Healthbar Background_470
+  - first:
+      213: 8456342376865008338
+    second: Healthbar Background_471
+  - first:
+      213: -3575044897445382592
+    second: Healthbar Background_472
+  - first:
+      213: -5479431541061638184
+    second: Healthbar Background_473
+  - first:
+      213: -396648641084739229
+    second: Healthbar Background_474
+  - first:
+      213: 7224273183137306777
+    second: Healthbar Background_475
+  - first:
+      213: 2276795381113871417
+    second: Healthbar Background_476
+  - first:
+      213: 3570960357212862694
+    second: Healthbar Background_477
+  - first:
+      213: -678016856608646869
+    second: Healthbar Background_478
+  - first:
+      213: 7437696505990612170
+    second: Healthbar Background_479
+  - first:
+      213: 7939708392689443269
+    second: Healthbar Background_480
+  - first:
+      213: 1268214826123539769
+    second: Healthbar Background_481
+  - first:
+      213: -6146647729715402722
+    second: Healthbar Background_482
+  - first:
+      213: -8826835275211994265
+    second: Healthbar Background_483
+  - first:
+      213: -6072247047912362767
+    second: Healthbar Background_484
+  - first:
+      213: 5856694476343656250
+    second: Healthbar Background_485
+  - first:
+      213: 6004274535186596112
+    second: Healthbar Background_486
+  - first:
+      213: -8902133362923062282
+    second: Healthbar Background_487
+  - first:
+      213: 1322586706117427758
+    second: Healthbar Background_488
+  - first:
+      213: -5530269044816812907
+    second: Healthbar Background_489
+  - first:
+      213: -8769535836606343466
+    second: Healthbar Background_490
+  - first:
+      213: 421728158590172744
+    second: Healthbar Background_491
+  - first:
+      213: -4899726831295473962
+    second: Healthbar Background_492
+  - first:
+      213: 6412559678458366813
+    second: Healthbar Background_493
+  - first:
+      213: -8215243567069169825
+    second: Healthbar Background_494
+  - first:
+      213: 555246306427749465
+    second: Healthbar Background_495
+  - first:
+      213: 9116400081212169907
+    second: Healthbar Background_496
+  - first:
+      213: 8970795942869149068
+    second: Healthbar Background_497
+  - first:
+      213: 8696025454464452340
+    second: Healthbar Background_498
+  - first:
+      213: 80979896937960688
+    second: Healthbar Background_499
+  - first:
+      213: 18550565563059517
+    second: Healthbar Background_500
+  - first:
+      213: -5144464520306547220
+    second: Healthbar Background_501
+  - first:
+      213: 4363655033285371297
+    second: Healthbar Background_502
+  - first:
+      213: -8923031924161134442
+    second: Healthbar Background_503
+  - first:
+      213: -3165059110711027963
+    second: Healthbar Background_504
+  - first:
+      213: 5026160305415584625
+    second: Healthbar Background_505
+  - first:
+      213: -2462575475088164026
+    second: Healthbar Background_506
+  - first:
+      213: -6782218171341659211
+    second: Healthbar Background_507
+  - first:
+      213: -235021665101685409
+    second: Healthbar Background_508
+  - first:
+      213: -648547950662352833
+    second: Healthbar Background_509
+  - first:
+      213: -6636566297519908173
+    second: Healthbar Background_510
+  - first:
+      213: 8583036429324269731
+    second: Healthbar Background_511
+  - first:
+      213: 7637949461950209420
+    second: Healthbar Background_512
+  - first:
+      213: -3100502911154704414
+    second: Healthbar Background_513
+  - first:
+      213: -3847617896719305182
+    second: Healthbar Background_514
+  - first:
+      213: 7791983289059429270
+    second: Healthbar Background_515
+  - first:
+      213: 610619857901780301
+    second: Healthbar Background_516
+  - first:
+      213: 7910556221154225403
+    second: Healthbar Background_517
+  - first:
+      213: 2216076249692554729
+    second: Healthbar Background_518
+  - first:
+      213: -4344009917040413574
+    second: Healthbar Background_519
+  - first:
+      213: 6038977258390443955
+    second: Healthbar Background_520
+  - first:
+      213: -8339256930578062637
+    second: Healthbar Background_521
+  - first:
+      213: -2793255200466729894
+    second: Healthbar Background_522
+  - first:
+      213: 8809273790020558086
+    second: Healthbar Background_523
+  - first:
+      213: 5877415245540885308
+    second: Healthbar Background_524
+  - first:
+      213: -3835874406440131643
+    second: Healthbar Background_525
+  - first:
+      213: 2171446151390895220
+    second: Healthbar Background_526
+  - first:
+      213: -4149379038815025995
+    second: Healthbar Background_527
+  - first:
+      213: 3532733300795996306
+    second: Healthbar Background_528
+  - first:
+      213: -8666348553983200109
+    second: Healthbar Background_529
+  - first:
+      213: 1619316202059681665
+    second: Healthbar Background_530
+  - first:
+      213: 64243203775609235
+    second: Healthbar Background_531
+  - first:
+      213: 7390338133032411962
+    second: Healthbar Background_532
+  - first:
+      213: 2643583367262803722
+    second: Healthbar Background_533
+  - first:
+      213: -9065949548951953564
+    second: Healthbar Background_534
+  - first:
+      213: -977942033374574876
+    second: Healthbar Background_535
+  - first:
+      213: -6725208505823036732
+    second: Healthbar Background_536
+  - first:
+      213: 1984987037713748418
+    second: Healthbar Background_537
+  - first:
+      213: -8274930027454166210
+    second: Healthbar Background_538
+  - first:
+      213: 4530947527251222642
+    second: Healthbar Background_539
+  - first:
+      213: -1374290635655291555
+    second: Healthbar Background_540
+  - first:
+      213: -6324472443816684673
+    second: Healthbar Background_541
+  - first:
+      213: 3468545317070907794
+    second: Healthbar Background_542
+  - first:
+      213: 8754680583800691235
+    second: Healthbar Background_543
+  - first:
+      213: 6605056837800299828
+    second: Healthbar Background_544
+  - first:
+      213: -8401140528408441850
+    second: Healthbar Background_545
+  - first:
+      213: -2455927394937665880
+    second: Healthbar Background_546
+  - first:
+      213: -1082642543001524405
+    second: Healthbar Background_547
+  - first:
+      213: 3037361101747677649
+    second: Healthbar Background_548
+  - first:
+      213: 5067329528766222114
+    second: Healthbar Background_549
+  - first:
+      213: -8178863215310790025
+    second: Healthbar Background_550
+  - first:
+      213: 3287744515759383809
+    second: Healthbar Background_551
+  - first:
+      213: 1029540607342396518
+    second: Healthbar Background_552
+  - first:
+      213: -3840882390786223854
+    second: Healthbar Background_553
+  - first:
+      213: 6841417732975457902
+    second: Healthbar Background_554
+  - first:
+      213: -3339549355648834811
+    second: Healthbar Background_555
+  - first:
+      213: 1266348711378154268
+    second: Healthbar Background_556
+  - first:
+      213: 6921088166480493683
+    second: Healthbar Background_557
+  - first:
+      213: -6126144986164772186
+    second: Healthbar Background_558
+  - first:
+      213: -7917092986674111027
+    second: Healthbar Background_559
+  - first:
+      213: 4002871322922170760
+    second: Healthbar Background_560
+  - first:
+      213: 2194984180523569906
+    second: Healthbar Background_561
+  - first:
+      213: -1448291333663685726
+    second: Healthbar Background_562
+  - first:
+      213: -4052426804610309693
+    second: Healthbar Background_563
+  - first:
+      213: -7836941955684970560
+    second: Healthbar Background_564
+  - first:
+      213: -1685079146297761226
+    second: Healthbar Background_565
+  - first:
+      213: 8814375414378050027
+    second: Healthbar Background_566
+  - first:
+      213: 334532197954268561
+    second: Healthbar Background_567
+  - first:
+      213: -2832363144067593235
+    second: Healthbar Background_568
+  - first:
+      213: 7263346683885434800
+    second: Healthbar Background_569
+  - first:
+      213: 4370462188942976973
+    second: Healthbar Background_570
+  - first:
+      213: 7462455758227034990
+    second: Healthbar Background_571
+  - first:
+      213: 7924025866268859024
+    second: Healthbar Background_572
+  - first:
+      213: -4513157552153849696
+    second: Healthbar Background_573
+  - first:
+      213: -758478892044702677
+    second: Healthbar Background_574
+  - first:
+      213: 8312634514898712414
+    second: Healthbar Background_575
+  - first:
+      213: -5667645807307624647
+    second: Healthbar Background_576
+  - first:
+      213: 199463561136055570
+    second: Healthbar Background_577
+  - first:
+      213: 4277332634047712768
+    second: Healthbar Background_578
+  - first:
+      213: 8673636733459142214
+    second: Healthbar Background_579
+  - first:
+      213: 2841075198281378162
+    second: Healthbar Background_580
+  - first:
+      213: -1918778631883899798
+    second: Healthbar Background_581
+  - first:
+      213: 2240897440187370062
+    second: Healthbar Background_582
+  - first:
+      213: -3016110066501387456
+    second: Healthbar Background_583
+  - first:
+      213: 4601916369724324397
+    second: Healthbar Background_584
+  - first:
+      213: -5108051993221450987
+    second: Healthbar Background_585
+  - first:
+      213: -2855856336005777222
+    second: Healthbar Background_586
+  - first:
+      213: 1157925453241572433
+    second: Healthbar Background_587
+  - first:
+      213: -8902162097559217681
+    second: Healthbar Background_588
+  - first:
+      213: 2392318138244723279
+    second: Healthbar Background_589
+  - first:
+      213: 2196493136719192287
+    second: Healthbar Background_590
+  - first:
+      213: -8958263759275654259
+    second: Healthbar Background_591
+  - first:
+      213: 4346629508795625600
+    second: Healthbar Background_592
+  - first:
+      213: -3006539365843049365
+    second: Healthbar Background_593
+  - first:
+      213: -2076441551101867393
+    second: Healthbar Background_594
+  - first:
+      213: 837635440156038527
+    second: Healthbar Background_595
+  - first:
+      213: -7916735530443096501
+    second: Healthbar Background_596
+  - first:
+      213: -5332422975817152398
+    second: Healthbar Background_597
+  - first:
+      213: -7634655601670169689
+    second: Healthbar Background_598
+  - first:
+      213: -2166550868818387196
+    second: Healthbar Background_599
+  - first:
+      213: -3094433732907745185
+    second: Healthbar Background_600
+  - first:
+      213: 8263972621771328362
+    second: Healthbar Background_601
+  - first:
+      213: 4549726303353238046
+    second: Healthbar Background_602
+  - first:
+      213: 2479716248105659208
+    second: Healthbar Background_603
+  - first:
+      213: 7848913174380548895
+    second: Healthbar Background_604
+  - first:
+      213: -3357671425741176323
+    second: Healthbar Background_605
+  - first:
+      213: -4686519367685864189
+    second: Healthbar Background_606
+  - first:
+      213: 8439291583544490450
+    second: Healthbar Background_607
+  - first:
+      213: -6084842848947328100
+    second: Healthbar Background_608
+  - first:
+      213: -5768672394255899196
+    second: Healthbar Background_609
+  - first:
+      213: 7916870348023349550
+    second: Healthbar Background_610
+  - first:
+      213: 1619805167107702900
+    second: Healthbar Background_611
+  - first:
+      213: -8663233690581578086
+    second: Healthbar Background_612
+  - first:
+      213: -5689416606044604257
+    second: Healthbar Background_613
+  - first:
+      213: -2626876709116954966
+    second: Healthbar Background_614
+  - first:
+      213: 3246191572607438698
+    second: Healthbar Background_615
+  - first:
+      213: -5712672341722693544
+    second: Healthbar Background_616
+  - first:
+      213: 5704099205236243388
+    second: Healthbar Background_617
+  - first:
+      213: -8363411655051234684
+    second: Healthbar Background_618
+  - first:
+      213: -3310034978542493133
+    second: Healthbar Background_619
+  - first:
+      213: 1563596338587730029
+    second: Healthbar Background_620
+  - first:
+      213: -5273140210458453132
+    second: Healthbar Background_621
+  - first:
+      213: 8268281471934343583
+    second: Healthbar Background_622
+  - first:
+      213: -617244480965182614
+    second: Healthbar Background_623
+  - first:
+      213: -3423057246779112933
+    second: Healthbar Background_624
+  - first:
+      213: -2844279967019959294
+    second: Healthbar Background_625
+  - first:
+      213: 9076415403947625852
+    second: Healthbar Background_626
+  - first:
+      213: -1365513441878810812
+    second: Healthbar Background_627
+  - first:
+      213: 3488588773133836660
+    second: Healthbar Background_628
+  - first:
+      213: -8733172756623329733
+    second: Healthbar Background_629
+  - first:
+      213: 5535744955519073391
+    second: Healthbar Background_630
+  - first:
+      213: -7610645687785155898
+    second: Healthbar Background_631
+  - first:
+      213: -8122273579700306761
+    second: Healthbar Background_632
+  - first:
+      213: 6707091239738991044
+    second: Healthbar Background_633
+  - first:
+      213: -8856090953614757784
+    second: Healthbar Background_634
+  - first:
+      213: 3431146589526316722
+    second: Healthbar Background_635
+  - first:
+      213: 1301612251549248380
+    second: Healthbar Background_636
+  - first:
+      213: 7258717667735899348
+    second: Healthbar Background_637
+  - first:
+      213: -7234729758933639082
+    second: Healthbar Background_638
+  - first:
+      213: 9005823778791750354
+    second: Healthbar Background_639
+  - first:
+      213: -7486282052401683654
+    second: Healthbar Background_640
+  - first:
+      213: -4809144710270925132
+    second: Healthbar Background_641
+  - first:
+      213: -8371909971673652224
+    second: Healthbar Background_642
+  - first:
+      213: 2770846334843496750
+    second: Healthbar Background_643
+  - first:
+      213: -250198409637316460
+    second: Healthbar Background_644
+  - first:
+      213: 3304026470594844538
+    second: Healthbar Background_645
+  - first:
+      213: -8023580761462770311
+    second: Healthbar Background_646
+  - first:
+      213: 4968470966744013413
+    second: Healthbar Background_647
+  - first:
+      213: 5576731812726498596
+    second: Healthbar Background_648
+  - first:
+      213: -4467603916880242829
+    second: Healthbar Background_649
+  - first:
+      213: -6780119128267293110
+    second: Healthbar Background_650
+  - first:
+      213: 8681871551315748606
+    second: Healthbar Background_651
+  - first:
+      213: 1166521479931846405
+    second: Healthbar Background_652
+  - first:
+      213: -3384113536204338148
+    second: Healthbar Background_653
+  - first:
+      213: 2687438123047778761
+    second: Healthbar Background_654
+  - first:
+      213: 255248736834062184
+    second: Healthbar Background_655
+  - first:
+      213: 6131375350846016232
+    second: Healthbar Background_656
+  - first:
+      213: -816731987969149516
+    second: Healthbar Background_657
+  - first:
+      213: -4286083389937250250
+    second: Healthbar Background_658
+  - first:
+      213: -5280958247163882563
+    second: Healthbar Background_659
+  - first:
+      213: -7231212058524004301
+    second: Healthbar Background_660
+  - first:
+      213: 1384700505961991202
+    second: Healthbar Background_661
+  - first:
+      213: -8458348396980869137
+    second: Healthbar Background_662
+  - first:
+      213: 7489991921779384072
+    second: Healthbar Background_663
+  - first:
+      213: 4447541196811608127
+    second: Healthbar Background_664
+  - first:
+      213: 8176402569644904138
+    second: Healthbar Background_665
+  - first:
+      213: -7057046967575468425
+    second: Healthbar Background_666
+  - first:
+      213: 4490956748606990335
+    second: Healthbar Background_667
+  - first:
+      213: 1543332554963991080
+    second: Healthbar Background_668
+  - first:
+      213: -2890271318834775501
+    second: Healthbar Background_669
+  - first:
+      213: -47609949245175942
+    second: Healthbar Background_670
+  - first:
+      213: 7486039266175892602
+    second: Healthbar Background_671
+  - first:
+      213: 2346655929545703397
+    second: Healthbar Background_672
+  - first:
+      213: -645248178161250937
+    second: Healthbar Background_673
+  - first:
+      213: -1885281281434913413
+    second: Healthbar Background_674
+  - first:
+      213: 7529595340495953843
+    second: Healthbar Background_675
+  - first:
+      213: 8476871174281854862
+    second: Healthbar Background_676
+  - first:
+      213: 747350417788916181
+    second: Healthbar Background_677
+  - first:
+      213: -3994698222157589249
+    second: Healthbar Background_678
+  - first:
+      213: 4001190257880607896
+    second: Healthbar Background_679
+  - first:
+      213: 6162895098240018857
+    second: Healthbar Background_680
+  - first:
+      213: 5378328942471693840
+    second: Healthbar Background_681
+  - first:
+      213: 345485826234043574
+    second: Healthbar Background_682
+  - first:
+      213: 4739731065792228374
+    second: Healthbar Background_683
+  - first:
+      213: 2955330514841840426
+    second: Healthbar Background_684
+  - first:
+      213: -5832348960522768467
+    second: Healthbar Background_685
+  - first:
+      213: -4947236270256791581
+    second: Healthbar Background_686
+  - first:
+      213: 3101767356747802050
+    second: Healthbar Background_687
+  - first:
+      213: -3136312407056146134
+    second: Healthbar Background_688
+  - first:
+      213: -6013906849572203331
+    second: Healthbar Background_689
+  - first:
+      213: 6528920375281213994
+    second: Healthbar Background_690
+  - first:
+      213: 9181172997838508432
+    second: Healthbar Background_691
+  - first:
+      213: -6476087950741324766
+    second: Healthbar Background_692
+  - first:
+      213: 7654813795080258999
+    second: Healthbar Background_693
+  - first:
+      213: 5218339408658228746
+    second: Healthbar Background_694
+  - first:
+      213: 1316656837346159861
+    second: Healthbar Background_695
+  - first:
+      213: 6286941339609429947
+    second: Healthbar Background_696
+  - first:
+      213: 1387377024676329636
+    second: Healthbar Background_697
+  - first:
+      213: 2816610587865354373
+    second: Healthbar Background_698
+  - first:
+      213: -8498526024050239103
+    second: Healthbar Background_699
+  - first:
+      213: -5098222140410334416
+    second: Healthbar Background_700
+  - first:
+      213: -3903751691810493777
+    second: Healthbar Background_701
+  - first:
+      213: -9004246923705648415
+    second: Healthbar Background_702
+  - first:
+      213: 410492505412381270
+    second: Healthbar Background_703
+  - first:
+      213: 8241752930682802751
+    second: Healthbar Background_704
+  - first:
+      213: -2396354770395363193
+    second: Healthbar Background_705
+  - first:
+      213: -1816673173590100736
+    second: Healthbar Background_706
+  - first:
+      213: -9160860576543204744
+    second: Healthbar Background_707
+  - first:
+      213: -2668137151942165875
+    second: Healthbar Background_708
+  - first:
+      213: 7682386591767128942
+    second: Healthbar Background_709
+  - first:
+      213: 8493815637475198832
+    second: Healthbar Background_710
+  - first:
+      213: -428044686675513997
+    second: Healthbar Background_711
+  - first:
+      213: -394707553736039893
+    second: Healthbar Background_712
+  - first:
+      213: -4841553088372849841
+    second: Healthbar Background_713
+  - first:
+      213: 2578138008820635755
+    second: Healthbar Background_714
+  - first:
+      213: 8298327631007685863
+    second: Healthbar Background_715
+  - first:
+      213: -8847544152711041038
+    second: Healthbar Background_716
+  - first:
+      213: 7978810332680032034
+    second: Healthbar Background_717
+  - first:
+      213: -2926197281652904622
+    second: Healthbar Background_718
+  - first:
+      213: 7032495759111569320
+    second: Healthbar Background_719
+  - first:
+      213: 408138662953471056
+    second: Healthbar Background_720
+  - first:
+      213: -7931534161229046936
+    second: Healthbar Background_721
+  - first:
+      213: 4790833136935205887
+    second: Healthbar Background_722
+  - first:
+      213: 3572365719148774677
+    second: Healthbar Background_723
+  - first:
+      213: 3487177481471075525
+    second: Healthbar Background_724
+  - first:
+      213: -6135058614895217603
+    second: Healthbar Background_725
+  - first:
+      213: -4357447639990976794
+    second: Healthbar Background_726
+  - first:
+      213: 5943356297145169395
+    second: Healthbar Background_727
+  - first:
+      213: 8353334853196332763
+    second: Healthbar Background_728
+  - first:
+      213: 8915166136422557483
+    second: Healthbar Background_729
+  - first:
+      213: -1916243890228255570
+    second: Healthbar Background_730
+  - first:
+      213: -3590195995443803119
+    second: Healthbar Background_731
+  - first:
+      213: 5509439170636812771
+    second: Healthbar Background_732
+  - first:
+      213: -44769319095448745
+    second: Healthbar Background_733
+  - first:
+      213: -4554131361473041467
+    second: Healthbar Background_734
+  - first:
+      213: -4734004492311244529
+    second: Healthbar Background_735
+  - first:
+      213: -7880518561361774540
+    second: Healthbar Background_736
+  - first:
+      213: -2014619431155701154
+    second: Healthbar Background_737
+  - first:
+      213: 8373632126671296226
+    second: Healthbar Background_738
+  - first:
+      213: -1690338599279214749
+    second: Healthbar Background_739
+  - first:
+      213: 487608199758646213
+    second: Healthbar Background_740
+  - first:
+      213: 4069425801676052279
+    second: Healthbar Background_741
+  - first:
+      213: 7955440998377044552
+    second: Healthbar Background_742
+  - first:
+      213: 782837578859745034
+    second: Healthbar Background_743
+  - first:
+      213: -383817501175332222
+    second: Healthbar Background_744
+  - first:
+      213: 68899902584574828
+    second: Healthbar Background_745
+  - first:
+      213: -8982198931335224482
+    second: Healthbar Background_746
+  - first:
+      213: -2875245464077474330
+    second: Healthbar Background_747
+  - first:
+      213: 2223929467146371978
+    second: Healthbar Background_748
+  - first:
+      213: 28287541187483882
+    second: Healthbar Background_749
+  - first:
+      213: 7282439872193261014
+    second: Healthbar Background_750
+  - first:
+      213: -3245495115777217407
+    second: Healthbar Background_751
+  - first:
+      213: 2082665583232136939
+    second: Healthbar Background_752
+  - first:
+      213: 77728866989918573
+    second: Healthbar Background_753
+  - first:
+      213: 7378012545656827074
+    second: Healthbar Background_754
+  - first:
+      213: 5041619528310935932
+    second: Healthbar Background_755
+  - first:
+      213: 1722642255202433165
+    second: Healthbar Background_756
+  - first:
+      213: 2763585548023077216
+    second: Healthbar Background_757
+  - first:
+      213: -2693213918555251352
+    second: Healthbar Background_758
+  - first:
+      213: -1163619903083924429
+    second: Healthbar Background_759
+  - first:
+      213: 2838585831493360678
+    second: Healthbar Background_760
+  - first:
+      213: 7634664702517607131
+    second: Healthbar Background_761
+  - first:
+      213: -8414713022875493852
+    second: Healthbar Background_762
+  - first:
+      213: 913860889093951849
+    second: Healthbar Background_763
+  - first:
+      213: 1666233472116654147
+    second: Healthbar Background_764
+  - first:
+      213: 8395907452453785613
+    second: Healthbar Background_765
+  - first:
+      213: 5498280375132422850
+    second: Healthbar Background_766
+  - first:
+      213: 729625692956285504
+    second: Healthbar Background_767
+  - first:
+      213: 1341146888705351961
+    second: Healthbar Background_768
+  - first:
+      213: 8203535688641715981
+    second: Healthbar Background_769
+  - first:
+      213: 6579926410331873964
+    second: Healthbar Background_770
+  - first:
+      213: 7430024868461941921
+    second: Healthbar Background_771
+  - first:
+      213: 3291664525924021211
+    second: Healthbar Background_772
+  - first:
+      213: 6519533286929312748
+    second: Healthbar Background_773
+  - first:
+      213: 2724646224865399235
+    second: Healthbar Background_774
+  - first:
+      213: -3853761505390542087
+    second: Healthbar Background_775
+  - first:
+      213: 3072504745375114408
+    second: Healthbar Background_776
+  - first:
+      213: 7113335418415818673
+    second: Healthbar Background_777
+  - first:
+      213: 2316641565624698808
+    second: Healthbar Background_778
+  - first:
+      213: -4844483018166658794
+    second: Healthbar Background_779
+  - first:
+      213: 394877773743902674
+    second: Healthbar Background_780
+  - first:
+      213: -4057998870614766481
+    second: Healthbar Background_781
+  - first:
+      213: 6491986026828290639
+    second: Healthbar Background_782
+  - first:
+      213: -4529727743696575375
+    second: Healthbar Background_783
+  - first:
+      213: -4291723864935108824
+    second: Healthbar Background_784
+  - first:
+      213: -6954559703476592918
+    second: Healthbar Background_785
+  - first:
+      213: 2005591575214338433
+    second: Healthbar Background_786
+  - first:
+      213: 9083256114000250870
+    second: Healthbar Background_787
+  - first:
+      213: -7037080614265916527
+    second: Healthbar Background_788
+  - first:
+      213: -7895895964374731407
+    second: Healthbar Background_789
+  - first:
+      213: -4773335434682349775
+    second: Healthbar Background_790
+  - first:
+      213: 3036263571392027303
+    second: Healthbar Background_791
+  - first:
+      213: 3491151488234454891
+    second: Healthbar Background_792
+  - first:
+      213: -3778871284328915086
+    second: Healthbar Background_793
+  - first:
+      213: -2902521749830292845
+    second: Healthbar Background_794
+  - first:
+      213: -7638560682672321243
+    second: Healthbar Background_795
+  - first:
+      213: 3295088841607140251
+    second: Healthbar Background_796
+  - first:
+      213: -3508053298525897917
+    second: Healthbar Background_797
+  - first:
+      213: 8472077182514896221
+    second: Healthbar Background_798
+  - first:
+      213: -6478538561131529578
+    second: Healthbar Background_799
+  - first:
+      213: 4939781125545162656
+    second: Healthbar Background_800
+  - first:
+      213: -1498416879072281365
+    second: Healthbar Background_801
+  - first:
+      213: -2099361269783495450
+    second: Healthbar Background_802
+  - first:
+      213: 6875118639950047692
+    second: Healthbar Background_803
+  - first:
+      213: -2315918634494982498
+    second: Healthbar Background_804
+  - first:
+      213: -6171366413457887313
+    second: Healthbar Background_805
+  - first:
+      213: -2438035790798746247
+    second: Healthbar Background_806
+  - first:
+      213: -7728322765070050614
+    second: Healthbar Background_807
+  - first:
+      213: -2945792841398987358
+    second: Healthbar Background_808
+  - first:
+      213: -1079245913999957378
+    second: Healthbar Background_809
+  - first:
+      213: -7581065636191415454
+    second: Healthbar Background_810
+  - first:
+      213: 173176170555931237
+    second: Healthbar Background_811
+  - first:
+      213: 8454796254111847252
+    second: Healthbar Background_812
+  - first:
+      213: -1916203837587803603
+    second: Healthbar Background_813
+  - first:
+      213: -457139971884690844
+    second: Healthbar Background_814
+  - first:
+      213: -7441472298314679725
+    second: Healthbar Background_815
+  - first:
+      213: 824289097098852884
+    second: Healthbar Background_816
+  - first:
+      213: -2063217898233118641
+    second: Healthbar Background_817
+  - first:
+      213: 3098275860466555736
+    second: Healthbar Background_818
+  - first:
+      213: -861529546675367550
+    second: Healthbar Background_819
+  - first:
+      213: -9107874171207777760
+    second: Healthbar Background_820
+  - first:
+      213: -5072900457365835848
+    second: Healthbar Background_821
+  - first:
+      213: 5199589991494909763
+    second: Healthbar Background_822
+  - first:
+      213: -7930713434196837089
+    second: Healthbar Background_823
+  - first:
+      213: -7937809341052317201
+    second: Healthbar Background_824
+  - first:
+      213: -4330837191092807536
+    second: Healthbar Background_825
+  - first:
+      213: 6978271957546022547
+    second: Healthbar Background_826
+  - first:
+      213: -5128406305013195699
+    second: Healthbar Background_827
+  - first:
+      213: -2856532149697079849
+    second: Healthbar Background_828
+  - first:
+      213: 4926662808432762953
+    second: Healthbar Background_829
+  - first:
+      213: -2699697863269829750
+    second: Healthbar Background_830
+  - first:
+      213: -8955338976889380755
+    second: Healthbar Background_831
+  - first:
+      213: -5181208469105014763
+    second: Healthbar Background_832
+  - first:
+      213: -7013758122229673269
+    second: Healthbar Background_833
+  - first:
+      213: 2405639381792798089
+    second: Healthbar Background_834
+  - first:
+      213: 7131390276487767059
+    second: Healthbar Background_835
+  - first:
+      213: 5237625465938889980
+    second: Healthbar Background_836
+  - first:
+      213: -7916628650805400305
+    second: Healthbar Background_837
+  - first:
+      213: -5389548361913877485
+    second: Healthbar Background_838
+  - first:
+      213: 3347265019764949628
+    second: Healthbar Background_839
+  - first:
+      213: 8784422540734546692
+    second: Healthbar Background_840
+  - first:
+      213: -8292781883163255822
+    second: Healthbar Background_841
+  - first:
+      213: -4019610088053070345
+    second: Healthbar Background_842
+  - first:
+      213: -4789412401260762153
+    second: Healthbar Background_843
+  - first:
+      213: 8655002340549167279
+    second: Healthbar Background_844
+  - first:
+      213: 7152704861899230142
+    second: Healthbar Background_845
+  - first:
+      213: -4468183171579115095
+    second: Healthbar Background_846
+  - first:
+      213: 4710469405145638880
+    second: Healthbar Background_847
+  - first:
+      213: 2840819511643134114
+    second: Healthbar Background_848
+  - first:
+      213: 6858905955391937687
+    second: Healthbar Background_849
+  - first:
+      213: 8019057562200121899
+    second: Healthbar Background_850
+  - first:
+      213: 4740370707501130663
+    second: Healthbar Background_851
+  - first:
+      213: 7645436116446112680
+    second: Healthbar Background_852
+  - first:
+      213: -5859096071720834557
+    second: Healthbar Background_853
+  - first:
+      213: 6871034689657641488
+    second: Healthbar Background_854
+  - first:
+      213: 6443171202926715542
+    second: Healthbar Background_855
+  - first:
+      213: 2629077029765690248
+    second: Healthbar Background_856
+  - first:
+      213: 6383102891373047591
+    second: Healthbar Background_857
+  - first:
+      213: -1936002335129254528
+    second: Healthbar Background_858
+  - first:
+      213: 8162512293241513516
+    second: Healthbar Background_859
+  - first:
+      213: -6375086146401901359
+    second: Healthbar Background_860
+  - first:
+      213: 598305114348500842
+    second: Healthbar Background_861
+  - first:
+      213: -7747631834310457415
+    second: Healthbar Background_862
+  - first:
+      213: 9169204697256167768
+    second: Healthbar Background_863
+  - first:
+      213: -642142393381434846
+    second: Healthbar Background_864
+  - first:
+      213: 7847942692926591868
+    second: Healthbar Background_865
+  - first:
+      213: -3891873387907366243
+    second: Healthbar Background_866
+  - first:
+      213: 7819015756440696051
+    second: Healthbar Background_867
+  - first:
+      213: 5994169180941648858
+    second: Healthbar Background_868
+  - first:
+      213: -8444111641082331670
+    second: Healthbar Background_869
+  - first:
+      213: 2193015934039004530
+    second: Healthbar Background_870
+  - first:
+      213: 1099657310461364655
+    second: Healthbar Background_871
+  - first:
+      213: -4102298556928324152
+    second: Healthbar Background_872
+  - first:
+      213: -4017174955904902457
+    second: Healthbar Background_873
+  - first:
+      213: 3278319054194681329
+    second: Healthbar Background_874
+  - first:
+      213: -6700779210251846605
+    second: Healthbar Background_875
+  - first:
+      213: -7950354484707197465
+    second: Healthbar Background_876
+  - first:
+      213: -1914946549321380648
+    second: Healthbar Background_877
+  - first:
+      213: -4698920194795069459
+    second: Healthbar Background_878
+  - first:
+      213: 8966525856195638542
+    second: Healthbar Background_879
+  - first:
+      213: -683380523670063409
+    second: Healthbar Background_880
+  - first:
+      213: -1394022759648229579
+    second: Healthbar Background_881
+  - first:
+      213: 8011919378736847338
+    second: Healthbar Background_882
+  - first:
+      213: -2659569214231886172
+    second: Healthbar Background_883
+  - first:
+      213: -1813505068098596180
+    second: Healthbar Background_884
+  - first:
+      213: 7436954910420953488
+    second: Healthbar Background_885
+  - first:
+      213: 8959653939116952187
+    second: Healthbar Background_886
+  - first:
+      213: 1808218067960296097
+    second: Healthbar Background_887
+  - first:
+      213: 8474544104274935044
+    second: Healthbar Background_888
+  - first:
+      213: -5965012946415635588
+    second: Healthbar Background_889
+  - first:
+      213: -7957959719935863829
+    second: Healthbar Background_890
+  - first:
+      213: 7735893817428771482
+    second: Healthbar Background_891
+  - first:
+      213: -4113551673671994079
+    second: Healthbar Background_892
+  - first:
+      213: 8420367677693327032
+    second: Healthbar Background_893
+  - first:
+      213: -7860210431374040552
+    second: Healthbar Background_894
+  - first:
+      213: 2690410538216732491
+    second: Healthbar Background_895
+  - first:
+      213: 5296738827399090318
+    second: Healthbar Background_896
+  - first:
+      213: 8433159650622563918
+    second: Healthbar Background_897
+  - first:
+      213: 5399923833550866498
+    second: Healthbar Background_898
+  - first:
+      213: -3804353545215521216
+    second: Healthbar Background_899
+  - first:
+      213: 7649875680963152491
+    second: Healthbar Background_900
+  - first:
+      213: 204639939337692294
+    second: Healthbar Background_901
+  - first:
+      213: -4577438632696821843
+    second: Healthbar Background_902
+  - first:
+      213: 1153519915628914929
+    second: Healthbar Background_903
+  - first:
+      213: -6857359909491974955
+    second: Healthbar Background_904
+  - first:
+      213: -5421362016107938133
+    second: Healthbar Background_905
+  - first:
+      213: 902651635274979650
+    second: Healthbar Background_906
+  - first:
+      213: 3212014672955794485
+    second: Healthbar Background_907
+  - first:
+      213: 4969727523458273324
+    second: Healthbar Background_908
+  - first:
+      213: 5818714607990450665
+    second: Healthbar Background_909
+  - first:
+      213: 4604499121402120306
+    second: Healthbar Background_910
+  - first:
+      213: -6003118726335830309
+    second: Healthbar Background_911
+  - first:
+      213: -7443996224662176523
+    second: Healthbar Background_912
+  - first:
+      213: -6685562941671636780
+    second: Healthbar Background_913
+  - first:
+      213: 3164252214604779405
+    second: Healthbar Background_914
+  - first:
+      213: -8034088467651995400
+    second: Healthbar Background_915
+  - first:
+      213: 9047924606396811393
+    second: Healthbar Background_916
+  - first:
+      213: 5209703913600099109
+    second: Healthbar Background_917
+  - first:
+      213: 6508896496558605323
+    second: Healthbar Background_918
+  - first:
+      213: -7003969341021278128
+    second: Healthbar Background_919
+  - first:
+      213: -8539048713432668054
+    second: Healthbar Background_920
+  - first:
+      213: -3726121967035304835
+    second: Healthbar Background_921
+  - first:
+      213: -8474275040086786379
+    second: Healthbar Background_922
+  - first:
+      213: -6281055552549103708
+    second: Healthbar Background_923
+  - first:
+      213: -582760181888872218
+    second: Healthbar Background_924
+  - first:
+      213: -1413890654107272188
+    second: Healthbar Background_925
+  - first:
+      213: 1606722478315976961
+    second: Healthbar Background_926
+  - first:
+      213: -4279920050936837980
+    second: Healthbar Background_927
+  - first:
+      213: -3536689474493579607
+    second: Healthbar Background_928
+  - first:
+      213: 4451429868525416882
+    second: Healthbar Background_929
+  - first:
+      213: -5918083326195711119
+    second: Healthbar Background_930
+  - first:
+      213: 6398343997210666001
+    second: Healthbar Background_931
+  - first:
+      213: -542546349663505291
+    second: Healthbar Background_932
+  - first:
+      213: -133600147188192372
+    second: Healthbar Background_933
+  - first:
+      213: -2932143417342655916
+    second: Healthbar Background_934
+  - first:
+      213: -5934235636312155268
+    second: Healthbar Background_935
+  - first:
+      213: 3365145814984550109
+    second: Healthbar Background_936
+  - first:
+      213: -899305798799985918
+    second: Healthbar Background_937
+  - first:
+      213: 2722721483016865197
+    second: Healthbar Background_938
+  - first:
+      213: 698618942389210764
+    second: Healthbar Background_939
+  - first:
+      213: 4056016554309938314
+    second: Healthbar Background_940
+  - first:
+      213: 5774642772767470741
+    second: Healthbar Background_941
+  - first:
+      213: -3138774311734937252
+    second: Healthbar Background_942
+  - first:
+      213: 5671006702571180156
+    second: Healthbar Background_943
+  - first:
+      213: -5145997343423526264
+    second: Healthbar Background_944
+  - first:
+      213: 5635518069903758389
+    second: Healthbar Background_945
+  - first:
+      213: 8792405585243078915
+    second: Healthbar Background_946
+  - first:
+      213: -543129124278086630
+    second: Healthbar Background_947
+  - first:
+      213: -5760677886134264388
+    second: Healthbar Background_948
+  - first:
+      213: -3529683830177873239
+    second: Healthbar Background_949
+  - first:
+      213: -7488558269190902933
+    second: Healthbar Background_950
+  - first:
+      213: -474498991256369224
+    second: Healthbar Background_951
+  - first:
+      213: -6786124564128260410
+    second: Healthbar Background_952
+  - first:
+      213: 3157436107587600644
+    second: Healthbar Background_953
+  - first:
+      213: -6640563312740432145
+    second: Healthbar Background_954
+  - first:
+      213: 1598578760608713299
+    second: Healthbar Background_955
+  - first:
+      213: -1897538871139160714
+    second: Healthbar Background_956
+  - first:
+      213: 5147236191161067190
+    second: Healthbar Background_957
+  - first:
+      213: 3676601514485517984
+    second: Healthbar Background_958
+  - first:
+      213: -797160289661639199
+    second: Healthbar Background_959
+  - first:
+      213: -4406410110368357686
+    second: Healthbar Background_960
+  - first:
+      213: -5996725698212471758
+    second: Healthbar Background_961
+  - first:
+      213: 6785835747035084168
+    second: Healthbar Background_962
+  - first:
+      213: -1445217682814075418
+    second: Healthbar Background_963
+  - first:
+      213: -4307405384171199612
+    second: Healthbar Background_964
+  - first:
+      213: -6901922580188079499
+    second: Healthbar Background_965
+  - first:
+      213: 7757523639777250030
+    second: Healthbar Background_966
+  - first:
+      213: -5639424899828854990
+    second: Healthbar Background_967
+  - first:
+      213: 316043369308919668
+    second: Healthbar Background_968
+  - first:
+      213: -7223174564331346854
+    second: Healthbar Background_969
+  - first:
+      213: -2806068922118556107
+    second: Healthbar Background_970
+  - first:
+      213: -7468020620223037873
+    second: Healthbar Background_971
+  - first:
+      213: 7363228247244869147
+    second: Healthbar Background_972
+  - first:
+      213: -7021046445150601955
+    second: Healthbar Background_973
+  - first:
+      213: -134093643393653013
+    second: Healthbar Background_974
+  - first:
+      213: -8406090881637052866
+    second: Healthbar Background_975
+  - first:
+      213: 3046747090019208539
+    second: Healthbar Background_976
+  - first:
+      213: 5602407286777922237
+    second: Healthbar Background_977
+  - first:
+      213: -4332504748231438345
+    second: Healthbar Background_978
+  - first:
+      213: 3414443880687290057
+    second: Healthbar Background_979
+  - first:
+      213: 4422372387921091374
+    second: Healthbar Background_980
+  - first:
+      213: -5791388992488491047
+    second: Healthbar Background_981
+  - first:
+      213: -1792843917612892444
+    second: Healthbar Background_982
+  - first:
+      213: 7063774341175109905
+    second: Healthbar Background_983
+  - first:
+      213: 8605843316979736453
+    second: Healthbar Background_984
+  - first:
+      213: 5724989602737381389
+    second: Healthbar Background_985
+  - first:
+      213: -5611965744218889226
+    second: Healthbar Background_986
+  - first:
+      213: -337183010408912672
+    second: Healthbar Background_987
+  - first:
+      213: -851083119347675779
+    second: Healthbar Background_988
+  - first:
+      213: -634868218126125467
+    second: Healthbar Background_989
+  - first:
+      213: 1345130826970196515
+    second: Healthbar Background_990
+  - first:
+      213: 2476888269470357485
+    second: Healthbar Background_991
+  - first:
+      213: -2954207531536283681
+    second: Healthbar Background_992
+  - first:
+      213: -4774102388934786944
+    second: Healthbar Background_993
+  - first:
+      213: 3056994961953588392
+    second: Healthbar Background_994
+  - first:
+      213: 1606096685897271088
+    second: Healthbar Background_995
+  - first:
+      213: 813310540433481262
+    second: Healthbar Background_996
+  - first:
+      213: -855820789389469903
+    second: Healthbar Background_997
+  - first:
+      213: -4458639384503854355
+    second: Healthbar Background_998
+  - first:
+      213: 7695260860940181969
+    second: Healthbar Background_999
+  - first:
+      213: -6885080099420654571
+    second: Healthbar Background_1000
+  - first:
+      213: 1829431374851147549
+    second: Healthbar Background_1001
+  - first:
+      213: 8994073356600208598
+    second: Healthbar Background_1002
+  - first:
+      213: -4718564159060522708
+    second: Healthbar Background_1003
+  - first:
+      213: 6935477086653210552
+    second: Healthbar Background_1004
+  - first:
+      213: 5503902564641751454
+    second: Healthbar Background_1005
+  - first:
+      213: -7135569406258007893
+    second: Healthbar Background_1006
+  - first:
+      213: 242158021717783883
+    second: Healthbar Background_1007
+  - first:
+      213: 2076536524208222833
+    second: Healthbar Background_1008
+  - first:
+      213: -1899909007838911398
+    second: Healthbar Background_1009
+  - first:
+      213: 719465453316752370
+    second: Healthbar Background_1010
+  - first:
+      213: -2520967342321659467
+    second: Healthbar Background_1011
+  - first:
+      213: -4839347888427825554
+    second: Healthbar Background_1012
+  - first:
+      213: 4623134812288207679
+    second: Healthbar Background_1013
+  - first:
+      213: -5956381798377815710
+    second: Healthbar Background_1014
+  - first:
+      213: 3503917252718887128
+    second: Healthbar Background_1015
+  - first:
+      213: 1741943919795501809
+    second: Healthbar Background_1016
+  - first:
+      213: 8988735740090299027
+    second: Healthbar Background_1017
+  - first:
+      213: 5360062758758405163
+    second: Healthbar Background_1018
+  - first:
+      213: 6481686941404213697
+    second: Healthbar Background_1019
+  - first:
+      213: 8511170449635974477
+    second: Healthbar Background_1020
+  - first:
+      213: -5581664910956301011
+    second: Healthbar Background_1021
+  - first:
+      213: 386195046939502104
+    second: Healthbar Background_1022
+  - first:
+      213: 3876389342011639958
+    second: Healthbar Background_1023
+  - first:
+      213: -4286599015564006748
+    second: Healthbar Background_1024
+  - first:
+      213: 3939509918681837122
+    second: Healthbar Background_1025
+  - first:
+      213: 7609660877834017372
+    second: Healthbar Background_1026
+  - first:
+      213: -295178694827271160
+    second: Healthbar Background_1027
+  - first:
+      213: -75795869892908067
+    second: Healthbar Background_1028
+  - first:
+      213: 7970574336695935176
+    second: Healthbar Background_1029
+  - first:
+      213: -4308949764970414005
+    second: Healthbar Background_1030
+  - first:
+      213: -5044653615297714889
+    second: Healthbar Background_1031
+  - first:
+      213: 762249578491073914
+    second: Healthbar Background_1032
+  - first:
+      213: -2316117062126260366
+    second: Healthbar Background_1033
+  - first:
+      213: 7275872038474191356
+    second: Healthbar Background_1034
+  - first:
+      213: -7380448163730377698
+    second: Healthbar Background_1035
+  - first:
+      213: -1312981033038265510
+    second: Healthbar Background_1036
+  - first:
+      213: 1986556663256248407
+    second: Healthbar Background_1037
+  - first:
+      213: -5752228885430413168
+    second: Healthbar Background_1038
+  - first:
+      213: -3134158197900241177
+    second: Healthbar Background_1039
+  - first:
+      213: 1262856898249542309
+    second: Healthbar Background_1040
+  - first:
+      213: 5740220246388812923
+    second: Healthbar Background_1041
+  - first:
+      213: 5074794615889287308
+    second: Healthbar Background_1042
+  - first:
+      213: 967717420538956800
+    second: Healthbar Background_1043
+  - first:
+      213: 7367833955389874169
+    second: Healthbar Background_1044
+  - first:
+      213: 1854362814102141014
+    second: Healthbar Background_1045
+  - first:
+      213: 3108502787263331115
+    second: Healthbar Background_1046
+  - first:
+      213: -5940193647567507553
+    second: Healthbar Background_1047
+  - first:
+      213: 7724681958551555233
+    second: Healthbar Background_1048
+  - first:
+      213: 4174793870515949714
+    second: Healthbar Background_1049
+  - first:
+      213: -1740526906482745424
+    second: Healthbar Background_1050
+  - first:
+      213: -2937244157246309740
+    second: Healthbar Background_1051
+  - first:
+      213: 6451502485268506788
+    second: Healthbar Background_1052
+  - first:
+      213: -287840477083253915
+    second: Healthbar Background_1053
+  - first:
+      213: 1061615871142619975
+    second: Healthbar Background_1054
+  - first:
+      213: -4175452995306342765
+    second: Healthbar Background_1055
+  - first:
+      213: 2215393004672233846
+    second: Healthbar Background_1056
+  - first:
+      213: -986123768162423952
+    second: Healthbar Background_1057
+  - first:
+      213: -389490135311442769
+    second: Healthbar Background_1058
+  - first:
+      213: -1861183010171888397
+    second: Healthbar Background_1059
+  - first:
+      213: -7761494954334264602
+    second: Healthbar Background_1060
+  - first:
+      213: -4463674710888891667
+    second: Healthbar Background_1061
+  - first:
+      213: -8855986999185804644
+    second: Healthbar Background_1062
+  - first:
+      213: -5945333977013559980
+    second: Healthbar Background_1063
+  - first:
+      213: -7218306091467432823
+    second: Healthbar Background_1064
+  - first:
+      213: 3670366231613636455
+    second: Healthbar Background_1065
+  - first:
+      213: -7097736701164560181
+    second: Healthbar Background_1066
+  - first:
+      213: 297332748017419288
+    second: Healthbar Background_1067
+  - first:
+      213: 5913240393254380118
+    second: Healthbar Background_1068
+  - first:
+      213: -8872369819334010980
+    second: Healthbar Background_1069
+  - first:
+      213: 2370515878337417387
+    second: Healthbar Background_1070
+  - first:
+      213: 8652442472499717874
+    second: Healthbar Background_1071
+  - first:
+      213: 1312197639623820524
+    second: Healthbar Background_1072
+  - first:
+      213: 4591263048764135058
+    second: Healthbar Background_1073
+  - first:
+      213: -7396652470149202836
+    second: Healthbar Background_1074
+  - first:
+      213: -9179569280222402122
+    second: Healthbar Background_1075
+  - first:
+      213: -4223853744150312784
+    second: Healthbar Background_1076
+  - first:
+      213: -4362893693099074594
+    second: Healthbar Background_1077
+  - first:
+      213: -779484639173644554
+    second: Healthbar Background_1078
+  - first:
+      213: -2461763727934490326
+    second: Healthbar Background_1079
+  - first:
+      213: 2504260253697607435
+    second: Healthbar Background_1080
+  - first:
+      213: 7294882052517032240
+    second: Healthbar Background_1081
+  - first:
+      213: 6047651485387255801
+    second: Healthbar Background_1082
+  - first:
+      213: -7522872251358204963
+    second: Healthbar Background_1083
+  - first:
+      213: -4289124959524373806
+    second: Healthbar Background_1084
+  - first:
+      213: -4035539521644343532
+    second: Healthbar Background_1085
+  - first:
+      213: 6771176834430594447
+    second: Healthbar Background_1086
+  - first:
+      213: -8596555764426400088
+    second: Healthbar Background_1087
+  - first:
+      213: -2749063535596457227
+    second: Healthbar Background_1088
+  - first:
+      213: -1368731973302154550
+    second: Healthbar Background_1089
+  - first:
+      213: 3479081068869390002
+    second: Healthbar Background_1090
+  - first:
+      213: 8812892947771913687
+    second: Healthbar Background_1091
+  - first:
+      213: 5148540536643658241
+    second: Healthbar Background_1092
+  - first:
+      213: -426869039250013290
+    second: Healthbar Background_1093
+  - first:
+      213: -619578893011432977
+    second: Healthbar Background_1094
+  - first:
+      213: 9025423462087228008
+    second: Healthbar Background_1095
+  - first:
+      213: -3992016505421336376
+    second: Healthbar Background_1096
+  - first:
+      213: 1369196302886032020
+    second: Healthbar Background_1097
+  - first:
+      213: 6114404219831105345
+    second: Healthbar Background_1098
+  - first:
+      213: 1920110470635467151
+    second: Healthbar Background_1099
+  - first:
+      213: -4363188423569311193
+    second: Healthbar Background_1100
+  - first:
+      213: -4935440323088732641
+    second: Healthbar Background_1101
+  - first:
+      213: 5002167675169838331
+    second: Healthbar Background_1102
+  - first:
+      213: 8134018832773861653
+    second: Healthbar Background_1103
+  - first:
+      213: 8433076832312936207
+    second: Healthbar Background_1104
+  - first:
+      213: -7780904867160556038
+    second: Healthbar Background_1105
+  - first:
+      213: -8737254849962414746
+    second: Healthbar Background_1106
+  - first:
+      213: 3629278259121708987
+    second: Healthbar Background_1107
+  - first:
+      213: -7009377523023703246
+    second: Healthbar Background_1108
+  - first:
+      213: 8701331600187192181
+    second: Healthbar Background_1109
+  - first:
+      213: -7755370693484219753
+    second: Healthbar Background_1110
+  - first:
+      213: -5193826926649478715
+    second: Healthbar Background_1111
+  - first:
+      213: -8346170517475334874
+    second: Healthbar Background_1112
+  - first:
+      213: -3631827956817512621
+    second: Healthbar Background_1113
+  - first:
+      213: 4235360070819867057
+    second: Healthbar Background_1114
+  - first:
+      213: 4986475920328913811
+    second: Healthbar Background_1115
+  - first:
+      213: 7151906670705575045
+    second: Healthbar Background_1116
+  - first:
+      213: -8337142105748854614
+    second: Healthbar Background_1117
+  - first:
+      213: 8942838302918364942
+    second: Healthbar Background_1118
+  - first:
+      213: 3258661422130113111
+    second: Healthbar Background_1119
+  - first:
+      213: -2959417217817835871
+    second: Healthbar Background_1120
+  - first:
+      213: 8771906545117641838
+    second: Healthbar Background_1121
+  - first:
+      213: 1151511943779525920
+    second: Healthbar Background_1122
+  - first:
+      213: -5215635071364256747
+    second: Healthbar Background_1123
+  - first:
+      213: -3699548941824815013
+    second: Healthbar Background_1124
+  - first:
+      213: 5701858129979760173
+    second: Healthbar Background_1125
+  - first:
+      213: 3002774046149513558
+    second: Healthbar Background_1126
+  - first:
+      213: 8139511351864354819
+    second: Healthbar Background_1127
+  - first:
+      213: -1493374081057385545
+    second: Healthbar Background_1128
+  - first:
+      213: 8016051398558706664
+    second: Healthbar Background_1129
+  - first:
+      213: 5889326051689568829
+    second: Healthbar Background_1130
+  - first:
+      213: -4229289697980035845
+    second: Healthbar Background_1131
+  - first:
+      213: -8179056362665821685
+    second: Healthbar Background_1132
+  - first:
+      213: -1227195980624220364
+    second: Healthbar Background_1133
+  - first:
+      213: 3130514680334498180
+    second: Healthbar Background_1134
+  - first:
+      213: 6849168040550359631
+    second: Healthbar Background_1135
+  - first:
+      213: -4203897908156187812
+    second: Healthbar Background_1136
+  - first:
+      213: 3570202619356515952
+    second: Healthbar Background_1137
+  - first:
+      213: 2989380697366288599
+    second: Healthbar Background_1138
+  - first:
+      213: 99954029426912870
+    second: Healthbar Background_1139
+  - first:
+      213: -7442601850140469813
+    second: Healthbar Background_1140
+  - first:
+      213: 6439665090684819027
+    second: Healthbar Background_1141
+  - first:
+      213: 5792301072344884948
+    second: Healthbar Background_1142
+  - first:
+      213: -2671803412091849049
+    second: Healthbar Background_1143
+  - first:
+      213: -4709798162063925882
+    second: Healthbar Background_1144
+  - first:
+      213: 3438402957049880740
+    second: Healthbar Background_1145
+  - first:
+      213: -5809098154226672481
+    second: Healthbar Background_1146
+  - first:
+      213: 5512368007556533541
+    second: Healthbar Background_1147
+  - first:
+      213: -276300083304069397
+    second: Healthbar Background_1148
+  - first:
+      213: 3487405408079422611
+    second: Healthbar Background_1149
+  - first:
+      213: 3403132814505180707
+    second: Healthbar Background_1150
+  - first:
+      213: 8888668262833466560
+    second: Healthbar Background_1151
+  - first:
+      213: -8842908361725515127
+    second: Healthbar Background_1152
+  - first:
+      213: -2769542613471309007
+    second: Healthbar Background_1153
+  - first:
+      213: -7367693930980085368
+    second: Healthbar Background_1154
+  - first:
+      213: -3643072904080113530
+    second: Healthbar Background_1155
+  - first:
+      213: -4867273084226269835
+    second: Healthbar Background_1156
+  - first:
+      213: -5891586003892431198
+    second: Healthbar Background_1157
+  - first:
+      213: 3338796229563315231
+    second: Healthbar Background_1158
+  - first:
+      213: -4471024364138402054
+    second: Healthbar Background_1159
+  - first:
+      213: 4093151456453165354
+    second: Healthbar Background_1160
+  - first:
+      213: 7775350412005670128
+    second: Healthbar Background_1161
+  - first:
+      213: 5563276882701636238
+    second: Healthbar Background_1162
+  - first:
+      213: 633796119662212071
+    second: Healthbar Background_1163
+  - first:
+      213: 3733233098053867332
+    second: Healthbar Background_1164
+  - first:
+      213: -4112432948826341430
+    second: Healthbar Background_1165
+  - first:
+      213: 4127900007773686543
+    second: Healthbar Background_1166
+  - first:
+      213: -7533282363932177488
+    second: Healthbar Background_1167
+  - first:
+      213: -3294497087732984604
+    second: Healthbar Background_1168
+  - first:
+      213: -6422140939491585323
+    second: Healthbar Background_1169
+  - first:
+      213: -3781800170464544271
+    second: Healthbar Background_1170
+  - first:
+      213: -5659462959131317423
+    second: Healthbar Background_1171
+  - first:
+      213: -6841234898898405874
+    second: Healthbar Background_1172
+  - first:
+      213: -3121403313305901470
+    second: Healthbar Background_1173
+  - first:
+      213: -8135588306180482979
+    second: Healthbar Background_1174
+  - first:
+      213: 8931318315548658358
+    second: Healthbar Background_1175
+  - first:
+      213: -1300221942569437079
+    second: Healthbar Background_1176
+  - first:
+      213: -111811139187423374
+    second: Healthbar Background_1177
+  - first:
+      213: 6511612590876999477
+    second: Healthbar Background_1178
+  - first:
+      213: 1091642684320866397
+    second: Healthbar Background_1179
+  - first:
+      213: 8960436570474054238
+    second: Healthbar Background_1180
+  - first:
+      213: -3008305677458938454
+    second: Healthbar Background_1181
+  - first:
+      213: -2626398440945996871
+    second: Healthbar Background_1182
+  - first:
+      213: -2006316652862737725
+    second: Healthbar Background_1183
+  - first:
+      213: -4036988059108259858
+    second: Healthbar Background_1184
+  - first:
+      213: 8385516169072202136
+    second: Healthbar Background_1185
+  - first:
+      213: 4416518859028409341
+    second: Healthbar Background_1186
+  - first:
+      213: -3853941004277721006
+    second: Healthbar Background_1187
+  - first:
+      213: 3696281602382711564
+    second: Healthbar Background_1188
+  - first:
+      213: 7285557908887152486
+    second: Healthbar Background_1189
+  - first:
+      213: 2822283238453635197
+    second: Healthbar Background_1190
+  - first:
+      213: 690125400950544968
+    second: Healthbar Background_1191
+  - first:
+      213: -8435744325521548681
+    second: Healthbar Background_1192
+  - first:
+      213: -7424066500272042755
+    second: Healthbar Background_1193
+  - first:
+      213: 5302878370103296166
+    second: Healthbar Background_1194
+  - first:
+      213: 8766632731363589240
+    second: Healthbar Background_1195
+  - first:
+      213: 5380880586915830603
+    second: Healthbar Background_1196
+  - first:
+      213: -673908526374710145
+    second: Healthbar Background_1197
+  - first:
+      213: 8875237148884115115
+    second: Healthbar Background_1198
+  - first:
+      213: 325585636373459768
+    second: Healthbar Background_1199
+  - first:
+      213: -6082002049455861381
+    second: Healthbar Background_1200
+  - first:
+      213: 5571481491224415313
+    second: Healthbar Background_1201
+  - first:
+      213: 1319906140568297693
+    second: Healthbar Background_1202
+  - first:
+      213: -4233862918445160530
+    second: Healthbar Background_1203
+  - first:
+      213: 4447435548165840953
+    second: Healthbar Background_1204
+  - first:
+      213: 8434477912557960645
+    second: Healthbar Background_1205
+  - first:
+      213: -2135204015331755519
+    second: Healthbar Background_1206
+  - first:
+      213: 8429175999399381293
+    second: Healthbar Background_1207
+  - first:
+      213: 3958930775436471314
+    second: Healthbar Background_1208
+  - first:
+      213: 2785789596046359412
+    second: Healthbar Background_1209
+  - first:
+      213: -4626914509063420082
+    second: Healthbar Background_1210
+  - first:
+      213: -3182039754661531948
+    second: Healthbar Background_1211
+  - first:
+      213: 5220683711416217251
+    second: Healthbar Background_1212
+  - first:
+      213: -6182911465436894741
+    second: Healthbar Background_1213
+  - first:
+      213: 7458934497183852542
+    second: Healthbar Background_1214
+  - first:
+      213: 6336753096672943988
+    second: Healthbar Background_1215
+  - first:
+      213: 7979937771028608023
+    second: Healthbar Background_1216
+  - first:
+      213: 5202097515428097531
+    second: Healthbar Background_1217
+  - first:
+      213: 3686676758340595787
+    second: Healthbar Background_1218
+  - first:
+      213: -376808531117564613
+    second: Healthbar Background_1219
+  - first:
+      213: 5195079105402665219
+    second: Healthbar Background_1220
+  - first:
+      213: -1212853601676502060
+    second: Healthbar Background_1221
+  - first:
+      213: 4521839686380618360
+    second: Healthbar Background_1222
+  - first:
+      213: 5555691209060525098
+    second: Healthbar Background_1223
+  - first:
+      213: 1102807404320575254
+    second: Healthbar Background_1224
+  - first:
+      213: -5271334704725351805
+    second: Healthbar Background_1225
+  - first:
+      213: 4941479204798983994
+    second: Healthbar Background_1226
+  - first:
+      213: -2773361933243653438
+    second: Healthbar Background_1227
+  - first:
+      213: 6167994529040749141
+    second: Healthbar Background_1228
+  - first:
+      213: 9057951302801587149
+    second: Healthbar Background_1229
+  - first:
+      213: -2874206169728345546
+    second: Healthbar Background_1230
+  - first:
+      213: 2436945906189080617
+    second: Healthbar Background_1231
+  - first:
+      213: -492878913722831565
+    second: Healthbar Background_1232
+  - first:
+      213: 7182894722290161884
+    second: Healthbar Background_1233
+  - first:
+      213: -5068661038095720533
+    second: Healthbar Background_1234
+  - first:
+      213: -2651500357614626305
+    second: Healthbar Background_1235
+  - first:
+      213: 3420378280461377268
+    second: Healthbar Background_1236
+  - first:
+      213: -8390984172704962813
+    second: Healthbar Background_1237
+  - first:
+      213: 4328563330147964254
+    second: Healthbar Background_1238
+  - first:
+      213: 3672652367631669938
+    second: Healthbar Background_1239
+  - first:
+      213: 6586515862584447537
+    second: Healthbar Background_1240
+  - first:
+      213: 939235077593814679
+    second: Healthbar Background_1241
+  - first:
+      213: 5521552554575800014
+    second: Healthbar Background_1242
+  - first:
+      213: 1893458883217508852
+    second: Healthbar Background_1243
+  - first:
+      213: 8693129798236175428
+    second: Healthbar Background_1244
+  - first:
+      213: -5136484925201654808
+    second: Healthbar Background_1245
+  - first:
+      213: 5520308747177631420
+    second: Healthbar Background_1246
+  - first:
+      213: 2313962948175696185
+    second: Healthbar Background_1247
+  - first:
+      213: -374238155619484177
+    second: Healthbar Background_1248
+  - first:
+      213: 307735135322448728
+    second: Healthbar Background_1249
+  - first:
+      213: -4778307796409668881
+    second: Healthbar Background_1250
+  - first:
+      213: -1527449029121077767
+    second: Healthbar Background_1251
+  - first:
+      213: 5116622175999369795
+    second: Healthbar Background_1252
+  - first:
+      213: -6686871339418262698
+    second: Healthbar Background_1253
+  - first:
+      213: -1381094295168098234
+    second: Healthbar Background_1254
+  - first:
+      213: 3963224347960278325
+    second: Healthbar Background_1255
+  - first:
+      213: 8917340626879705341
+    second: Healthbar Background_1256
+  - first:
+      213: -676707669524966389
+    second: Healthbar Background_1257
+  - first:
+      213: -1537438068471748802
+    second: Healthbar Background_1258
+  - first:
+      213: -7449470329143241762
+    second: Healthbar Background_1259
+  - first:
+      213: -1040736138702231355
+    second: Healthbar Background_1260
+  - first:
+      213: 9174491159577526004
+    second: Healthbar Background_1261
+  - first:
+      213: 5084882736825364559
+    second: Healthbar Background_1262
+  - first:
+      213: 1723051911132086269
+    second: Healthbar Background_1263
+  - first:
+      213: 4881650565366503722
+    second: Healthbar Background_1264
+  - first:
+      213: -5486469777729941021
+    second: Healthbar Background_1265
+  - first:
+      213: -8130637377495097894
+    second: Healthbar Background_1266
+  - first:
+      213: 5426493308208268515
+    second: Healthbar Background_1267
+  - first:
+      213: 5371901065839848177
+    second: Healthbar Background_1268
+  - first:
+      213: -8216800546593682656
+    second: Healthbar Background_1269
+  - first:
+      213: -5804241145241799484
+    second: Healthbar Background_1270
+  - first:
+      213: 353856215215073603
+    second: Healthbar Background_1271
+  - first:
+      213: -2805052565533750671
+    second: Healthbar Background_1272
+  - first:
+      213: -823549021247499354
+    second: Healthbar Background_1273
+  - first:
+      213: -7235636806301028342
+    second: Healthbar Background_1274
+  - first:
+      213: -527660992690748164
+    second: Healthbar Background_1275
+  - first:
+      213: -5675939824022404441
+    second: Healthbar Background_1276
+  - first:
+      213: 2836293554132412173
+    second: Healthbar Background_1277
+  - first:
+      213: 4023991405508826068
+    second: Healthbar Background_1278
+  - first:
+      213: 412008828017805103
+    second: Healthbar Background_1279
+  - first:
+      213: 691618939705319435
+    second: Healthbar Background_1280
+  - first:
+      213: 7644696530046320350
+    second: Healthbar Background_1281
+  - first:
+      213: -1838583363801698175
+    second: Healthbar Background_1282
+  - first:
+      213: -6736025649589768905
+    second: Healthbar Background_1283
+  - first:
+      213: -2568981575924164906
+    second: Healthbar Background_1284
+  - first:
+      213: 1887698437350247388
+    second: Healthbar Background_1285
+  - first:
+      213: -8136163267135998730
+    second: Healthbar Background_1286
+  - first:
+      213: 5984878158669420031
+    second: Healthbar Background_1287
+  - first:
+      213: 3148433771102349729
+    second: Healthbar Background_1288
+  - first:
+      213: 4486798854073432448
+    second: Healthbar Background_1289
+  - first:
+      213: 6855264114319634749
+    second: Healthbar Background_1290
+  - first:
+      213: -7709220247528187274
+    second: Healthbar Background_1291
+  - first:
+      213: 7830669376419208618
+    second: Healthbar Background_1292
+  - first:
+      213: 3468589408534961871
+    second: Healthbar Background_1293
+  - first:
+      213: 8100287475913244522
+    second: Healthbar Background_1294
+  - first:
+      213: 7174777634725472713
+    second: Healthbar Background_1295
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 13, y: 291, z: 12, w: 291}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
