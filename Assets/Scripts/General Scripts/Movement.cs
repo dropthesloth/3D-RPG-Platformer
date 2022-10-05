@@ -10,10 +10,12 @@ public class Movement : MonoBehaviour
     [SerializeField] Transform mainCamera;
     //[SerializeField] CharacterController charCtrl;
     [SerializeField] Animator moveAnim;
+    public bool isMoving;
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        isMoving = false;
     }
 
     // Update is called once per frame
@@ -38,12 +40,14 @@ public class Movement : MonoBehaviour
             if (direction.magnitude >= 0.1f)
             {
                 rb.velocity = new Vector3(moveDirection.x * speed * Time.fixedDeltaTime, rb.velocity.y, moveDirection.z * speed * Time.fixedDeltaTime);
-                moveAnim.SetBool("IsRunning", true);
+               // moveAnim.SetBool("IsRunning", true);
+                isMoving = true;
             }
         }
         else
         {
-            moveAnim.SetBool("IsRunning", false);
+           // moveAnim.SetBool("IsRunning", false);
+            isMoving = false;
             rb.velocity = new Vector3(0, rb.velocity.y, 0);
         }
     }
