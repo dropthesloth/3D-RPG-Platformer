@@ -14,14 +14,14 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public ProjectileShoot projectileShootRef;
     [SerializeField] GameObject menu;
     Movement movementRef;
-    CameraController comeraControllerRef;
+    CameraController cameraControlRef;
     private void Awake()
     {
         //playerInput = GetComponent<PlayerInputKeyboard>();
         //playerInputInterface = GetComponent<IPlayerInput>();
         movementRef = GetComponent<Movement>();
         playerJumpRef = GetComponent<PlayerJump>();
-        comeraControllerRef = GetComponent<CameraController>();
+        cameraControlRef = GetComponent<CameraController>();
         //playerInput.MoveInput += movementRef.Move;
         //playerInput.JumpInput += playerJumpRef.Jump;
 
@@ -67,7 +67,7 @@ public class PlayerController : MonoBehaviour
     }
     public void StartingInput()
     {
-        gameObject.AddComponent<PlayerInputController>();
+        //gameObject.AddComponent<PlayerInputController>();
         playerInputInterface = gameObject.GetComponent<PlayerInputKeyboard>();
         BindNewInput(playerInputInterface);
     }
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
     {
         playerInputInterface.MoveInput -= movementRef.Move;
         playerInputInterface.JumpInput -= playerJumpRef.Jump;
-        playerInputInterface.CameraMoveInput -= comeraControllerRef.RotateCamera;
+        playerInputInterface.CameraMoveInput -= cameraControlRef.RotateCamera;
         if (GetComponent<WindJump>())
             playerInputInterface.WindJumpInput -= windJumpRef.DoubleJump;
         if (GetComponent<FlameDash>())
@@ -98,7 +98,7 @@ public class PlayerController : MonoBehaviour
 
         playerInputInterface.MoveInput += movementRef.Move;
         playerInputInterface.JumpInput += playerJumpRef.Jump;
-        playerInputInterface.CameraMoveInput += comeraControllerRef.RotateCamera;
+        playerInputInterface.CameraMoveInput += cameraControlRef.RotateCamera;
         if (GetComponent<WindJump>())
             playerInputInterface.WindJumpInput += windJumpRef.DoubleJump;
         if (GetComponent<FlameDash>())

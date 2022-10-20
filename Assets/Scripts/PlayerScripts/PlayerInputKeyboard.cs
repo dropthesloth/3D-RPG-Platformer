@@ -1,19 +1,21 @@
-﻿using System.Collections;
+﻿using Cinemachine;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
 {
     //public PlayerJump jumpRef;
      public bool abilityReady;
     public float abilityCooldown;
     public event PlayerActionDirection MoveInput = delegate { };
-    public event PlayerActionDirection CameraMoveInput = delegate { };
+    public event PlayerActionCameraDirection CameraMoveInput = delegate { };
     public event PlayerAction JumpInput = delegate { };
     public event PlayerAction ShootInput = delegate { };
     public event PlayerActionSwitch SwitchProjectileInput = delegate { };
     public event PlayerAction WindJumpInput = delegate { };
     public event PlayerAction FlameDashInput = delegate { };
+    public InputActionReference cameraAction;
     // Start is called before the first frame update
     void Awake()
     {
@@ -59,16 +61,17 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
             float movementZ = Input.GetAxis("Vertical");
             Vector3 direction = new Vector3(movementX, 0, movementZ);
             MoveInput(direction);
+            //Debug.Log("Gaaay");
         }
     }
     void CameraMove()
     {
-        if (MoveInput != null)
+        if (CameraMoveInput != null)
         {
-            float cameraX = Input.GetAxis("Mouse X");
+            /*float cameraX = Input.GetAxis("Mouse X");
             float cameraY = Input.GetAxis("Mouse Y");
-            Vector3 direction = new Vector3(cameraX, cameraY, 0);
-            CameraMoveInput(direction);
+            Vector3 direction = new Vector3(cameraX, cameraY, 0);*/
+            CameraMoveInput(cameraAction);
         }
     }
     void FlameDash()

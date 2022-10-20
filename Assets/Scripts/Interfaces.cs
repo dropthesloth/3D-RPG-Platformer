@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public delegate void PlayerAction();
 public delegate void PlayerActionDirection(Vector3 direction);
+public delegate void PlayerActionCameraDirection(InputActionReference action);
 public delegate void PlayerActionSwitch(bool nextAbility);
 public interface IPlayerInput
 {
     event PlayerAction JumpInput;
     event PlayerActionDirection MoveInput;
-    event PlayerActionDirection CameraMoveInput;
+    event PlayerActionCameraDirection CameraMoveInput;
     event PlayerAction ShootInput;
     event PlayerActionSwitch SwitchProjectileInput;
     event PlayerAction WindJumpInput;

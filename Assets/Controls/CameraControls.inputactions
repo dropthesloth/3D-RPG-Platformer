@@ -1,0 +1,82 @@
+{
+    "name": "CameraControls",
+    "maps": [
+        {
+            "name": "Controller",
+            "id": "28e62f08-8f52-4488-836b-cbcc076f83a0",
+            "actions": [
+                {
+                    "name": "ControllerLook",
+                    "type": "PassThrough",
+                    "id": "6ff33b89-c764-4feb-ad2a-476f8ceac345",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "77e2e922-8b75-47ac-ab50-91e23190938a",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ControllerLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Mouse",
+            "id": "feb99bfb-b78f-4ce6-bfcd-588ef0ef715f",
+            "actions": [
+                {
+                    "name": "MouseLook",
+                    "type": "PassThrough",
+                    "id": "96d83951-c5e9-43d9-ab50-7bbcf1d002fc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "190e03fd-b31f-48b0-8540-4390d79f137f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "200f300e-0e58-4b16-b348-d7cc18d2bc9e",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseLook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "42b07dca-f82a-4fb2-b256-c2ffc986e003",
+                    "path": "<Mouse>/press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
