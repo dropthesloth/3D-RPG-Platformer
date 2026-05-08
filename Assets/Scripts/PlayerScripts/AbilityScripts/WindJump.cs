@@ -5,14 +5,16 @@ using UnityEngine;
 public class WindJump : MonoBehaviour
 {
     [HideInInspector] public Rigidbody rb;
-    [HideInInspector ]public float jumpForce;
+    [HideInInspector] public float jumpForce;
     public bool canWindJump;
+    //When I can add more combat focus. Will blow other enemies and any projectiles away
+   // GameObject windBox;
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
         canWindJump = true;
-        jumpForce = 16f;
+        jumpForce = 30f;
     }
 
     // Update is called once per frame
@@ -24,8 +26,11 @@ public class WindJump : MonoBehaviour
     {
         if (canWindJump)
         {
-        rb.velocity = Vector3.up * jumpForce;
-        canWindJump = false;
+            if (rb.linearVelocity.y < 0)
+                rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            // rb.linearVelocity = Vector3.up * jumpForce;
+            canWindJump = false;
         }
     }
 }

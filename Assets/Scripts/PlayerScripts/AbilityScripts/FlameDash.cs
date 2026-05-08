@@ -13,11 +13,11 @@ public class FlameDash : MonoBehaviour
     {
         rb = gameObject.GetComponent<Rigidbody>();
         canDash = false;
-        dashForce = 60f;
+        dashForce = 35f;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (dashTimer > 0)
         {
@@ -26,12 +26,12 @@ public class FlameDash : MonoBehaviour
             /*if (movementX != 0 || movementZ != 0)
                 rb.velocity = new Vector3(movementX * dashForce, 0, movementZ * dashForce);
             else*/
-            rb.velocity = transform.forward * dashForce;
+            rb.linearVelocity = transform.forward * dashForce;
             dashTimer -= Time.deltaTime;
         }
     }
     public void Dash()
     {
-        dashTimer = 0.5f;
+        dashTimer = 0.4f;
     }
 }

@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerController : MonoBehaviour
 {
     [HideInInspector] public bool hasDoubleJump;
-    PlayerJump playerJumpRef;
+    [SerializeField]PlayerJump playerJumpRef;
     //PlayerInputKeyboard playerInput;
     // PlayerInputController playerInputC;
     [HideInInspector] public IPlayerInput playerInputInterface;
@@ -20,7 +19,6 @@ public class PlayerController : MonoBehaviour
         //playerInput = GetComponent<PlayerInputKeyboard>();
         //playerInputInterface = GetComponent<IPlayerInput>();
         movementRef = GetComponent<Movement>();
-        playerJumpRef = GetComponent<PlayerJump>();
         cameraControlRef = GetComponent<CameraController>();
         //playerInput.MoveInput += movementRef.Move;
         //playerInput.JumpInput += playerJumpRef.Jump;
@@ -32,38 +30,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerJumpRef.isGrounded == false)
-        {
-            //Checks if the player can Wind Jump
-            if (GetComponent<WindJump>())
-            {
-                if (windJumpRef.canWindJump)
-                {
-                    /*if (GetComponent<PlayerInputController>() && playerInputC.abilityReady)
-                        Debug.Log("Testing testing");//playerInputC.abilityReady = false;
-                    else if (GetComponent<PlayerInputKeyboard>())
-                        playerInput.abilityReady = false;
-                }
-                else
-                {*/
-                    //if (GetComponent<PlayerInputController>())
-                        //playerInputC.abilityReady = true;
-                    //else if (GetComponent<PlayerInputKeyboard>())
-                       // playerInput.abilityReady = true;
-                }
-            }
-        }
-
-        /*if (GetComponent<FlameDash>()){
-        if (flameDashRef.dashTimer < 0) 
-            { 
-            if (GetComponent<PlayerInputController>())
-                Debug.Log("Testing testing");//playerInputC.abilityReady = false;
-            else if (GetComponent<PlayerInputKeyboard>())
-                playerInput.abilityReady = false;
-            }
-        }
-    }*/
+       
     }
     public void StartingInput()
     {
@@ -119,13 +86,12 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Floor"))
+        if (GetComponent<FlameDash>())
         {
-            playerJumpRef.isGrounded = true;
-            if (GetComponent<FlameDash>())
-                flameDashRef.canDash = true;
-            if (GetComponent<WindJump>())
-                windJumpRef.canWindJump = true;
-        }       
+            Debug.Log("Guh?");
+            flameDashRef.canDash = true;
+        }
+        if (GetComponent<WindJump>())
+            windJumpRef.canWindJump = true;
     }
 }

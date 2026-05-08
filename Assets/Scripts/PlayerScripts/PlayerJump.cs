@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
-    [HideInInspector]public Rigidbody rb;
+    public Rigidbody rb;
     public float jumpForce;
     public bool isGrounded;
     // Start is called before the first frame update
     void Start()
     {
-        rb = gameObject.GetComponent<Rigidbody>();
         isGrounded = true;
     }
 
@@ -20,10 +19,18 @@ public class PlayerJump : MonoBehaviour
         {
             float currentAccelerationForce = Mathf.Abs(rb.mass * Physics.gravity.y);
             float newJumpForce = jumpForce + currentAccelerationForce;
-            rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z);
+            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             //rb.velocity = Vector3.up * jumpForce;
             isGrounded = false;
+        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Floor"))
+        {
+            isGrounded = true;
+
         }
     }
 }

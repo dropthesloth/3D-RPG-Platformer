@@ -1,13 +1,16 @@
 ﻿using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
 {
     //public PlayerJump jumpRef;
      public bool abilityReady;
     public float abilityCooldown;
+    [SerializeField]TextMeshProUGUI abilityCooldownText;
     public event PlayerActionDirection MoveInput = delegate { };
     public event PlayerActionCameraDirection CameraMoveInput = delegate { };
     public event PlayerAction JumpInput = delegate { };
@@ -16,6 +19,7 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
     public event PlayerAction WindJumpInput = delegate { };
     public event PlayerAction FlameDashInput = delegate { };
     public InputActionReference cameraAction;
+    [SerializeField]Image coolDownSlider;
     // Start is called before the first frame update
     void Awake()
     {
@@ -29,10 +33,16 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
         if (abilityCooldown > 0)
         {
             abilityCooldown -= Time.deltaTime;
+            coolDownSlider.fillAmount = 1 - (abilityCooldown / 2);
+            abilityCooldownText.text = abilityCooldown.ToString("F1");
             abilityReady = false;
         }
         else if (abilityCooldown <= 0 && !abilityReady)
+        {
+            coolDownSlider.fillAmount = 1;
             abilityReady = true;
+            abilityCooldownText.text = "Ready!";
+        }
         Jump();
         Move();
         CameraMove();
@@ -76,19 +86,19 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
     }
     void FlameDash()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && abilityReady && FlameDashInput != null)
+        if (Input.GetKeyDown(KeyCode.E) && abilityReady && FlameDashInput != null)
         {
             FlameDashInput();
-            abilityCooldown = 3f;
+            abilityCooldown = 2f;
         }
     }
     void WindJump()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && abilityReady && WindJumpInput != null)
+        if (Input.GetKeyDown(KeyCode.Q) && abilityReady && WindJumpInput != null)
         {
             WindJumpInput();
             Debug.Log("AIr JUmp");
-            abilityCooldown = 4f;
+            abilityCooldown = 2f;
         }
     }
     void Shoot()

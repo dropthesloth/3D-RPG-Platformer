@@ -2,8 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WindJumpPowerUp : MonoBehaviour
+public interface IJumpPowerUp
 {
+    void AddComponentToPlayer(GameObject pPlayer);
+}
+
+public class WindJumpPowerUp : MonoBehaviour, IJumpPowerUp
+{
+    public void AddComponentToPlayer(GameObject pPlayer)
+    {
+        //adds flame dash component to the player
+        pPlayer.GetComponent<PlayerController>().windJumpRef = pPlayer.gameObject.AddComponent<WindJump>();
+        pPlayer.GetComponent<PlayerController>().playerInputInterface.WindJumpInput += pPlayer.GetComponent<PlayerController>().windJumpRef.DoubleJump;
+        gameObject.SetActive(false);
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

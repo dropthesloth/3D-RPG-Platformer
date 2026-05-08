@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour
             moveDirection = moveDirection.normalized;
             if (direction.magnitude >= 0.1f)
             {
-                rb.velocity = new Vector3(moveDirection.x * speed * Time.fixedDeltaTime, rb.velocity.y, moveDirection.z * speed * Time.fixedDeltaTime);
+                rb.linearVelocity = new Vector3(moveDirection.x * speed * Time.fixedDeltaTime, rb.linearVelocity.y, moveDirection.z * speed * Time.fixedDeltaTime);
                // moveAnim.SetBool("IsRunning", true);
                 isMoving = true;
             }
@@ -48,7 +48,7 @@ public class Movement : MonoBehaviour
         {
            // moveAnim.SetBool("IsRunning", false);
             isMoving = false;
-            rb.velocity = new Vector3(0, rb.velocity.y, 0);
+            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
         }
     }
 }

@@ -24,7 +24,7 @@ public class IceSkate : MonoBehaviour
         {
             float movementX = Input.GetAxis("Horizontal");
             float movementZ = Input.GetAxis("Vertical"); 
-            rb.velocity = new Vector3(movementX * skateSpeed, 0, movementZ * skateSpeed);
+            rb.linearVelocity = new Vector3(movementX * skateSpeed, 0, movementZ * skateSpeed);
             dashTimer -= Time.deltaTime;
         }
     }

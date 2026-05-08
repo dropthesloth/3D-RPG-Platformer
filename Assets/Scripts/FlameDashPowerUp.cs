@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface IPowerUp
+public interface IDashPowerUp
 {
     void AddComponentToPlayer(GameObject pPlayer);
 }
 
 
-public class FlameDashPowerUp : MonoBehaviour, IPowerUp
+public class FlameDashPowerUp : MonoBehaviour, IDashPowerUp
 {
     public void AddComponentToPlayer(GameObject pPlayer)
     {
