@@ -10,11 +10,13 @@ public class WindJump : MonoBehaviour
     public bool canWindJump;
     bool charging;
     Animator anim;
+    ParticleSystem windEffect;
     //When I can add more combat focus. Will blow other enemies and any projectiles away
     // GameObject windBox;
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        windEffect = EffectStorer.instance.windEffect;
     }
     // Start is called before the first frame update
     void Start()
@@ -36,6 +38,9 @@ public class WindJump : MonoBehaviour
         anim.SetBool("ChargingJump", true);
         charging = true;
         float chargeTimer = 1f;
+        windEffect.gameObject.SetActive(true);
+        ParticleSystem.VelocityOverLifetimeModule windSpeed = windEffect.velocityOverLifetime;
+        windSpeed.speedModifier = 1f;
         while (charging)
         {
             rb.linearDamping = 30f;
@@ -45,11 +50,19 @@ public class WindJump : MonoBehaviour
                 charging = false;
             yield return new WaitForEndOfFrame();
         }
+        windEffect.Stop();
         StopCharging();
         yield return new WaitForEndOfFrame();
+
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        windSpeed.speedModifier = 4f;
+        windEffect.Play();
         yield return new WaitForEndOfFrame();
         anim.SetBool("WindJumping", false);
+        windEffect.Stop();
+        yield return new WaitForSeconds(2f);
+        windEffect.gameObject.SetActive(false);
+
     }
     public void StopCharging()
     {
