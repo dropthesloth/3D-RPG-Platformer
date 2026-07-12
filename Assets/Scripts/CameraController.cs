@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Cinemachine;
+using Unity.Cinemachine;
 using UnityEngine.InputSystem;
 using System;
 
@@ -37,7 +37,7 @@ public class CameraController : MonoBehaviour
     }
     public void RotateCamera(InputActionReference camControl /*Vector3 cameraRotation*/)
     {
-        if (playerControllerRef.playerInputInterface == gameObject.transform.GetComponent<PlayerInputController>())
+        if (playerControllerRef.playerInputInterface is PlayerInputController)
         {
             cameraInput.XYAxis = camControl;
             cameraInput.XYAxis.name = "Controller/ControllerLook";
@@ -54,7 +54,7 @@ public class CameraController : MonoBehaviour
             playerCamera.m_YAxis.m_MaxSpeed = 10;
             playerCamera.m_XAxis.m_MaxSpeed = 300;
         }
-        else if (playerControllerRef.playerInputInterface == gameObject.transform.GetComponent<PlayerInputKeyboard>())
+        else if (playerControllerRef.playerInputInterface is PlayerInputKeyboard)
         {
             Debug.Log("gaming");
             cameraInput.XYAxis = camControl;

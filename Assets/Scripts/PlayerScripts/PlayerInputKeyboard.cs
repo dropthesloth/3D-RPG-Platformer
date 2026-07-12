@@ -1,4 +1,4 @@
-﻿using Cinemachine;
+﻿//using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -18,7 +18,7 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
     public event PlayerActionSwitch SwitchProjectileInput = delegate { };
     public event PlayerAction WindJumpInput = delegate { };
     public event PlayerAction FlameDashInput = delegate { };
-    public InputActionReference cameraAction;
+   // public InputActionReference cameraAction;
     [SerializeField]Image coolDownSlider;
     // Start is called before the first frame update
     void Awake()
@@ -45,7 +45,7 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
         }
         Jump();
         Move();
-        CameraMove();
+       // CameraMove();
         FlameDash();
         WindJump();
         Shoot();
@@ -74,16 +74,16 @@ public class PlayerInputKeyboard : MonoBehaviour, IPlayerInput
             //Debug.Log("Gaaay");
         }
     }
-    void CameraMove()
+    /*void CameraMove()
     {
         if (CameraMoveInput != null)
         {
             /*float cameraX = Input.GetAxis("Mouse X");
             float cameraY = Input.GetAxis("Mouse Y");
-            Vector3 direction = new Vector3(cameraX, cameraY, 0);*/
+            Vector3 direction = new Vector3(cameraX, cameraY, 0);
             CameraMoveInput(cameraAction);
         }
-    }
+    }*/
     void FlameDash()
     {
         if (Input.GetKeyDown(KeyCode.E) && abilityReady && FlameDashInput != null)

@@ -13,13 +13,13 @@ public class PlayerController : MonoBehaviour
     [HideInInspector] public ProjectileShoot projectileShootRef;
     [SerializeField] GameObject menu;
     Movement movementRef;
-    CameraController cameraControlRef;
+    //CameraController cameraControlRef;
     private void Awake()
     {
         //playerInput = GetComponent<PlayerInputKeyboard>();
         //playerInputInterface = GetComponent<IPlayerInput>();
         movementRef = GetComponent<Movement>();
-        cameraControlRef = GetComponent<CameraController>();
+       // cameraControlRef = GetComponent<CameraController>();
         //playerInput.MoveInput += movementRef.Move;
         //playerInput.JumpInput += playerJumpRef.Jump;
 
@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour
     {
         playerInputInterface.MoveInput -= movementRef.Move;
         playerInputInterface.JumpInput -= playerJumpRef.Jump;
-        playerInputInterface.CameraMoveInput -= cameraControlRef.RotateCamera;
+       // playerInputInterface.CameraMoveInput -= cameraControlRef.RotateCamera;
         if (GetComponent<WindJump>())
             playerInputInterface.WindJumpInput -= windJumpRef.DoubleJump;
         if (GetComponent<FlameDash>())
@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
 
         playerInputInterface.MoveInput += movementRef.Move;
         playerInputInterface.JumpInput += playerJumpRef.Jump;
-        playerInputInterface.CameraMoveInput += cameraControlRef.RotateCamera;
+        //playerInputInterface.CameraMoveInput += cameraControlRef.RotateCamera;
         if (GetComponent<WindJump>())
             playerInputInterface.WindJumpInput += windJumpRef.DoubleJump;
         if (GetComponent<FlameDash>())

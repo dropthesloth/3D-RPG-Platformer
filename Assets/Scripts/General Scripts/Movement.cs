@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
     public Transform movingObject;
-    private Rigidbody rb;
+    [HideInInspector] public Rigidbody rb;
     public float speed;
     [SerializeField] Transform mainCamera;
     //[SerializeField] CharacterController charCtrl;
@@ -26,7 +27,6 @@ public class Movement : MonoBehaviour
     }
     public void Move(Vector3 direction)
     {
-
         direction = direction.normalized;
         Debug.Log(direction.ToString());
         if (direction.x != 0 || direction.z != 0)
@@ -40,15 +40,16 @@ public class Movement : MonoBehaviour
             if (direction.magnitude >= 0.1f)
             {
                 rb.linearVelocity = new Vector3(moveDirection.x * speed * Time.fixedDeltaTime, rb.linearVelocity.y, moveDirection.z * speed * Time.fixedDeltaTime);
-               // moveAnim.SetBool("IsRunning", true);
+                // moveAnim.SetBool("IsRunning", true);
                 isMoving = true;
             }
         }
         else
         {
-           // moveAnim.SetBool("IsRunning", false);
+            // moveAnim.SetBool("IsRunning", false);
             isMoving = false;
-            rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            //rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+            Debug.Log("Current vertical velocity = " + rb.linearVelocity.magnitude.ToString());
         }
     }
 }

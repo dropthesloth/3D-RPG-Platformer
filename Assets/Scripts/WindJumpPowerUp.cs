@@ -11,7 +11,7 @@ public class WindJumpPowerUp : MonoBehaviour, IJumpPowerUp
 {
     public void AddComponentToPlayer(GameObject pPlayer)
     {
-        //adds flame dash component to the player
+        //adds wind jump component to the player
         pPlayer.GetComponent<PlayerController>().windJumpRef = pPlayer.gameObject.AddComponent<WindJump>();
         pPlayer.GetComponent<PlayerController>().playerInputInterface.WindJumpInput += pPlayer.GetComponent<PlayerController>().windJumpRef.DoubleJump;
         gameObject.SetActive(false);
