@@ -19,3 +19,4 @@ MonoBehaviour:
   speed: 0.1
   shootCoolDown: 0.5
   projectile: {fileID: 5395088999477869311, guid: 51628051d6aeb704ab17800791bac8f4, type: 3}
+  projectileColor: {r: 0.9607844, g: 0.5529412, b: 0.20392159, a: 1}

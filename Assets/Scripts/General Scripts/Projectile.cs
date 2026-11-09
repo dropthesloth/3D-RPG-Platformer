@@ -12,4 +12,5 @@ public class Projectile : ScriptableObject
     public float speed;
     public float shootCoolDown;
     public GameObject projectile;
+    public Color projectileColor;
 }

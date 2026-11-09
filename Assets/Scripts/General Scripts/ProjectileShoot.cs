@@ -10,16 +10,21 @@ public class ProjectileShoot : MonoBehaviour
     public GameObject spawnPosition;
     public List<Projectile> projectiles = new List<Projectile>();
     public Projectile projectileObject;
-    public Image currentProjectileImage;
+    [SerializeField] Image currentProjectileImage;
     // Start is called before the first frame update
     void Start()
     {
-        currentProjectileImage = GameObject.Find("CurrentProjectile").GetComponent<Image>();
+        //currentProjectileImage = GameObject.Find("CurrentProjectile").GetComponent<Image>();
         //currentProjectileImage.color = projectileObject.projectile.GetComponent<Material>().color;
         if (spawnPosition == null)
             spawnPosition = GameObject.Find("ProjectilePoint");
         shootCoolDown = 0;
         shootProjectile = true;
+        if (projectiles.Count > 0)
+        { 
+            projectileObject = projectiles[0];
+            currentProjectileImage.color = projectiles[0].projectileColor;
+        }
     }
 
     // Update is called once per frame
@@ -60,7 +65,9 @@ public class ProjectileShoot : MonoBehaviour
         //i = (((i + change) + projectiles.Count) % projectiles.Count);
         i = ClampListIndex(i + change, projectiles.Count);
         print(i);
+        Debug.Log("Purojectairu");
         projectileObject = projectiles[i];
+        currentProjectileImage.color = projectiles[i].projectileColor;
         //currentProjectileImage.color = projectileObject.projectile.GetComponent<Material>().color;
         return;
     }

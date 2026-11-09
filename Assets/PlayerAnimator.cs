@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 
 public class PlayerAnimator : MonoBehaviour
@@ -8,7 +9,7 @@ public class PlayerAnimator : MonoBehaviour
     [SerializeField] Animator playerAnim;
     [SerializeField] Movement moveRef;
     [SerializeField] PlayerJump jumpRef;
-    [SerializeField] PlayerController playerControllerRef;
+    [SerializeField] PlayerInputKeyboard inputRef;
     bool isMoving;
     // Start is called before the first frame update
     void Start()
@@ -18,14 +19,14 @@ public class PlayerAnimator : MonoBehaviour
     private void OnEnable()
     {
         jumpRef.GroundedEvent += GroundedCheck;
-        if (playerControllerRef.playerInputInterface != null)
-            playerControllerRef.playerInputInterface.MoveInput += StartMoving;
+        if (inputRef != null)
+            inputRef.MoveInput.action.performed += StartMoving;
     }
     private void OnDisable()
     {
         jumpRef.GroundedEvent -= GroundedCheck;
-        if (playerControllerRef.playerInputInterface != null)
-            playerControllerRef.playerInputInterface.MoveInput -= StartMoving;
+        if (inputRef != null)
+            inputRef.MoveInput.action.performed -= StartMoving;
     }
     // Update is called once per frame
     void Update()
@@ -39,27 +40,32 @@ public class PlayerAnimator : MonoBehaviour
         else
             playerAnim.SetFloat("VerticalVelocity", 0);
     }
-    void StartMoving(Vector3 direction)
+    void StartMoving(InputAction.CallbackContext context)
     {
-        
+
         if (!isMoving && moveRef.isMoving)
         {
             Debug.Log("Haiyaa");
             playerAnim.SetBool("IsRunning", moveRef.isMoving);
-            StartCoroutine(MovingCheck());
             isMoving = true;
+            StartCoroutine(MovingCheck());
+            
         }
     }
 
     IEnumerator MovingCheck()
     {
         yield return new WaitForSeconds(0.05f);
-        while (moveRef.rb.linearVelocity.magnitude > 0.001f)
+        while (moveRef.speed / moveRef.maxSpeed > 0.05f)
         {
-            playerAnim.SetFloat("Velocity", moveRef.rb.linearVelocity.magnitude / (moveRef.speed * Time.fixedDeltaTime));
+            playerAnim.SetFloat("Velocity", moveRef.speed / moveRef.maxSpeed);
             yield return new WaitForEndOfFrame();
+            Debug.Log("Do be running");
         }
-        playerAnim.SetFloat("Velocity", 0);
+        yield return new WaitForEndOfFrame();
+        Debug.Log("Do be stopped");
+        if (!moveRef.isMoving)
+            playerAnim.SetFloat("Velocity", 0);
         playerAnim.SetBool("IsRunning", moveRef.isMoving);
         isMoving = false;
     }

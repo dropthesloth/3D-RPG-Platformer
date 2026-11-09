@@ -14,7 +14,7 @@ public class FlameDashPowerUp : MonoBehaviour, IDashPowerUp
     {
         //adds flame dash component to the player
         pPlayer.GetComponent<PlayerController>().flameDashRef = pPlayer.gameObject.AddComponent<FlameDash>();
-        pPlayer.GetComponent<PlayerController>().playerInputInterface.FlameDashInput += pPlayer.GetComponent<PlayerController>().flameDashRef.Dash;
+        //pPlayer.GetComponent<PlayerController>().playerInputInterface.FlameDashInput += pPlayer.GetComponent<PlayerController>().flameDashRef.Dash;
         gameObject.SetActive(false);
     }
 

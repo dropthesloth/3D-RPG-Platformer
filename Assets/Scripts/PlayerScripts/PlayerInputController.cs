@@ -1,13 +1,13 @@
 ﻿//using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class PlayerInputController : MonoBehaviour, IPlayerInput
+public class PlayerInputController : MonoBehaviour
 {
     //public PlayerJump jumpRef;
-    public bool abilityReady;
+    /*public bool abilityReady;
     public float abilityCooldown;
     public event PlayerActionDirection MoveInput = delegate { };
-    public event PlayerActionCameraDirection CameraMoveInput = delegate { };
+    //public event PlayerActionCameraDirection CameraMoveInput = delegate { };
     public event PlayerAction JumpInput = delegate { };
     public event PlayerAction ShootInput = delegate { };
     public event PlayerActionSwitch SwitchProjectileInput = delegate { };
@@ -39,11 +39,11 @@ public class PlayerInputController : MonoBehaviour, IPlayerInput
         WindJump();
         Shoot();
         SwitchProjectile();
-        /*if (Input.GetKeyDown(KeyCode.X) && abilityReady && IceSkateInput != null)
+        if (Input.GetKeyDown(KeyCode.X) && abilityReady && IceSkateInput != null)
         {
             IceSkateInput();
             abilityCooldown = 10f;
-        }*/
+        }
         
     }
     void Jump()
@@ -64,7 +64,7 @@ public class PlayerInputController : MonoBehaviour, IPlayerInput
             //Debug.Log("Bitch");
         }
     }
-    /*void CameraMove()
+    void CameraMove()
     {
         if (CameraMoveInput != null)
         {
@@ -73,7 +73,7 @@ public class PlayerInputController : MonoBehaviour, IPlayerInput
             Vector3 direction = new Vector3(cameraX, cameraY, 0);
             CameraMoveInput(cameraAction);
         }
-    }*/
+    }
     void FlameDash()
     {
         if (Input.GetButtonDown("Ability2") && abilityReady && FlameDashInput != null)
@@ -108,6 +108,6 @@ public class PlayerInputController : MonoBehaviour, IPlayerInput
             else if (Input.GetAxis("Switch") < 0)
                 SwitchProjectileInput(false);
         }
-    }
+    }*/
 }
 
