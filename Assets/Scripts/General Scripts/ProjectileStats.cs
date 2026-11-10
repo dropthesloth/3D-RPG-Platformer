@@ -6,7 +6,7 @@ public class ProjectileStats : MonoBehaviour
 { 
     public Projectile projectileObject;
     float chargeTime;
-    float destroyTimer = 5f;
+    float destroyTimer = 1.5f;
     // Start is called before the first frame update
     void Start()
     {
