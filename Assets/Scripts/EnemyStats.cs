@@ -10,24 +10,25 @@ public class EnemyStats : MonoBehaviour, IEnemy
     //public event EnemyFollowTarget FollowPlayer = delegate { };
     public event EnemyActions Aim = delegate { };
 
-    [SerializeField]Projectile weakness;
-    public Projectile Weakness { get {return weakness; } }
+    [SerializeField] Projectile weakness;
+    public Projectile Weakness { get { return weakness; } }
     [SerializeField] Projectile resistance;
     public Projectile Resistance { get { return resistance; } }
     public GameObject player;
     float shootTimer;
+    [SerializeField] float maxShootTimer;
     public Vector3 moveDirection;
     Stats statsRef;
     public int maxHealth;
     // Start is called before the first frame update
     void Start()
     {
-        shootTimer = 5f;
+        shootTimer = maxShootTimer;
         statsRef = gameObject.GetComponent<Stats>();
         statsRef.maxHealth = maxHealth;
         player = GameObject.Find("Player");
         Shoot += gameObject.GetComponent<ProjectileShoot>().Shoot;
-        Move += gameObject.GetComponent<Movement>().Move;
+        Move += gameObject.GetComponent<EnemyMovement>().Move;
         //FollowPlayer += gameObject.GetComponent<FollowingEnemyMove>().Follow;
 
     }
@@ -35,11 +36,12 @@ public class EnemyStats : MonoBehaviour, IEnemy
     // Update is called once per frame
     void Update()
     {
-        ShootProjectile();
-        MoveEnemy();
-        if(Aim != null)
-        AimAt();
-        if(statsRef.currentHealth <= 0)
+        if (shootTimer > 0)
+            ShootProjectile();
+        //MoveEnemy();
+        if (Aim != null)
+            AimAt();
+        if (statsRef.currentHealth <= 0)
         {
             Debug.Log("why are you dead");
             Destroy(this.gameObject);
@@ -48,8 +50,8 @@ public class EnemyStats : MonoBehaviour, IEnemy
     }
     public void AimAt()
     {
-        if(Aim != null)       
-        Aim();        
+        if (Aim != null)
+            Aim();
     }
     void ShootProjectile()
     {
@@ -57,13 +59,14 @@ public class EnemyStats : MonoBehaviour, IEnemy
         if (shootTimer <= 0 && Shoot != null)
         {
             Shoot();
+            shootTimer = maxShootTimer;
         }
     }
-    void MoveEnemy()
+    /*void MoveEnemy()
     {
         if (Move != null)
             Move(moveDirection);
-    }  
+    }*/
     /*void Follow()
     {
         if(FollowPlayer != null)
