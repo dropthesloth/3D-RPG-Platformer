@@ -85,14 +85,12 @@ public class PlayerController : MonoBehaviour
     }*/
     void Accelerate(InputAction.CallbackContext context)
     {
-        Debug.Log("fuckin");
         Vector3 direction = new Vector3(context.action.ReadValue<Vector2>().x,
                                         0, context.action.ReadValue<Vector2>().y);
         StartCoroutine(movementRef.Accelerate(direction));
     }
     void Decelerate(InputAction.CallbackContext context)
     {
-        Debug.Log("fuckin dick");
         Vector3 direction = new Vector3(context.action.ReadValue<Vector2>().x,
                                         0, context.action.ReadValue<Vector2>().y);
         StartCoroutine(movementRef.Decelerate(direction));

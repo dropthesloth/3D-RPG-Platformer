@@ -52,27 +52,35 @@ public class Movement : MonoBehaviour
     public IEnumerator Accelerate(Vector3 direction)
     {
         isMoving = true;
-        Debug.Log("jark");
+        Debug.Log("Yahoo");
         while (direction.magnitude > 0.1f && speed < maxSpeed && isMoving)
         {
-            speed += maxSpeed / 5;
-            yield return new WaitForSeconds(0.1f);
+            Debug.Log("Speed up");
+            speed += maxSpeed / 10;
+            yield return new WaitForSeconds(0.05f);
         }
-        speed = maxSpeed;
+        if (isMoving)
+            speed = maxSpeed;
     }
     public IEnumerator Decelerate(Vector3 direction)
     {
         isMoving = false;
-        Debug.Log("coom");
-        while (speed > 0 && direction.magnitude <= 0.9f && !isMoving)
+        Debug.Log("Yahaha");
+        while (direction.magnitude <= 0.9f && !isMoving)
         {
-            speed -= maxSpeed / 10;
+            Debug.Log("Speed down");
+            if (speed > 0)
+                speed -= maxSpeed / 10;
             if (rb.linearVelocity.x != 0 || rb.linearVelocity.z != 0)
                 rb.linearVelocity = new Vector3(rb.linearVelocity.x / 1.2f, rb.linearVelocity.y,
                                                     rb.linearVelocity.z / 1.2f);
             yield return new WaitForSeconds(0.05f);
         }
         //rb.linearVelocity = new Vector3(0,rb.linearVelocity.y,0);
-        speed = 0;
+        if (!isMoving)
+        { 
+            speed = 0;
+            rb.linearVelocity = new Vector3(0,rb.linearVelocity.y,0);
+        }
     }
 }

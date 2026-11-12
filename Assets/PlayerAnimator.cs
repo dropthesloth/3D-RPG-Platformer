@@ -6,11 +6,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerAnimator : MonoBehaviour
 {
+    private static readonly int VelocityHash = Animator.StringToHash("Velocity");
     [SerializeField] Animator playerAnim;
     [SerializeField] Movement moveRef;
     [SerializeField] PlayerJump jumpRef;
     [SerializeField] PlayerInputKeyboard inputRef;
-    bool isMoving;
+    [SerializeField] bool isMoving;
+    /*float PlayerVelocity { get { return moveRef.speed; } 
+                           set { PlayerVelocity = value;  playerAnim.SetFloat(VelocityHash, value / moveRef.maxSpeed); Debug.Log("Do be moving"); } }*/
+    // bool IsMoving { get { return moveRef.isMoving; } set { } }
     // Start is called before the first frame update
     void Start()
     {
@@ -20,17 +24,15 @@ public class PlayerAnimator : MonoBehaviour
     {
         jumpRef.GroundedEvent += GroundedCheck;
         if (inputRef != null)
+        {
             inputRef.MoveInput.action.performed += StartMoving;
+        }
     }
     private void OnDisable()
     {
         jumpRef.GroundedEvent -= GroundedCheck;
         if (inputRef != null)
             inputRef.MoveInput.action.performed -= StartMoving;
-    }
-    // Update is called once per frame
-    void Update()
-    {
     }
     public void GroundedCheck(bool isGrounded)
     {
@@ -42,32 +44,33 @@ public class PlayerAnimator : MonoBehaviour
     }
     void StartMoving(InputAction.CallbackContext context)
     {
-
-        if (!isMoving && moveRef.isMoving)
+        if (!playerAnim.GetBool("IsRunning") && moveRef.isMoving)
         {
-            Debug.Log("Haiyaa");
-            playerAnim.SetBool("IsRunning", moveRef.isMoving);
+            Debug.Log("Start moving");
+            playerAnim.SetBool("IsRunning", true);
             isMoving = true;
             StartCoroutine(MovingCheck());
-            
         }
     }
 
     IEnumerator MovingCheck()
     {
-        yield return new WaitForSeconds(0.05f);
-        while (moveRef.speed / moveRef.maxSpeed > 0.05f)
+        if (moveRef.speed / moveRef.maxSpeed > 0.01f)
+            Debug.Log("Do be moving");
+        //yield return new WaitForSeconds(0.05f);
+        while (moveRef.speed / moveRef.maxSpeed > 0.01f)
         {
             playerAnim.SetFloat("Velocity", moveRef.speed / moveRef.maxSpeed);
-            yield return new WaitForEndOfFrame();
             Debug.Log("Do be running");
+            yield return new WaitForEndOfFrame();
         }
-        yield return new WaitForEndOfFrame();
+        //yield return new WaitForEndOfFrame();
         Debug.Log("Do be stopped");
         if (!moveRef.isMoving)
             playerAnim.SetFloat("Velocity", 0);
-        playerAnim.SetBool("IsRunning", moveRef.isMoving);
+        playerAnim.SetBool("IsRunning", false);
         isMoving = false;
+        yield return new WaitForEndOfFrame();
     }
     IEnumerator WhenAirborne()
     {
